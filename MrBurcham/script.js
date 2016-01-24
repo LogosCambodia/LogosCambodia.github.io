@@ -1,6 +1,10 @@
 //welcome to your javascript file.
 $( document ).ready(function() {
 
+  //setup html includes for header and footer so we can manage them in one place.
+  $('#header').load('header.html');
+  $('#footer').load('footer.html');
+
   //setup hover
   $(".nav-item").hover(
     function(){
@@ -20,5 +24,5 @@ $( document ).ready(function() {
   });
 
 
-
+  
 });
