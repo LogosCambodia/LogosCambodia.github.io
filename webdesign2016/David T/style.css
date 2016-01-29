@@ -1,0 +1,31 @@
+body {
+      background-color: #3399ff
+}
+#picture {
+          float: left;
+}
+#name {
+       font-size: 60px;
+}
+#biography {
+            font-size: 30px;
+}
+body {
+    background-image: url("soundwave.png");
+    background-color: #cccccc;
+    float: left;
+}
+#footer {
+  clear: both;
+  font-size: 15px;
+  text-align: left;
+}
+#first-paragraph {
+  border-radius: 15px;
+  border: 1.5px solid black;
+  margin: 30px;
+  box-shadow: 5px 10px 5px #888888;
+  min-height: 125px;
+  font-size: 20px;
+  text-align: center;
+}

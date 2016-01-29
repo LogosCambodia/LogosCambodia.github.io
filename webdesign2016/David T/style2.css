@@ -1,0 +1,26 @@
+body {
+      background-color: #66ccff
+      }
+#p{
+   font-size: 90px;
+      }
+#p{
+color: #000066
+}
+body {
+
+    background-color:#009999;
+    float:left;
+}
+#classes {
+  border-radius: 15px;
+  border: 1.5px solid black;
+  margin: 30px;
+  box-shadow: 5px 10px 5px #888888;
+  min-height: 125px;
+  font-size: 20px;
+  text-align: center;
+}
+#list {
+  font-size: 20px;
+}
