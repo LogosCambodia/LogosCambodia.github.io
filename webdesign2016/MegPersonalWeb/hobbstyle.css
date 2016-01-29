@@ -1,0 +1,17 @@
+body {
+        background-color: #961818;
+}
+p {
+	background-color: #F2F2F2;
+}
+#first-paragraph {
+ background-color: #FF752B;
+}
+.indented {
+		padding-left: 40px;
+	}
+<script>
+		  $( "#toggler" ).click(function() {
+		  	$( "p" ).toggle();
+		  });
+	</script>
