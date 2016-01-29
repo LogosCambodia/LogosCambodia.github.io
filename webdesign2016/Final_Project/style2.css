@@ -1,0 +1,32 @@
+body {
+	background-color: #CBCCD2
+}
+#name {
+	font-size: 24px;
+}
+#container {
+	width: 1000px;
+		height: 100px;
+			background-color: #DFE3E4
+
+}
+h1 {
+	text-align: center;
+}
+#picture {
+	float: right;
+		float: left;
+}
+#container2 {
+	width: 1000px;
+		height: 100px;
+			background-color: #C8DBDF
+}
+#name {
+  border-radius: 10px;
+  border: 1px solid black;
+  margin: 20px;
+  padding: 10px;
+  box-shadow: 10px 10px 5px #888888;
+  min-height: 50px;
+}
