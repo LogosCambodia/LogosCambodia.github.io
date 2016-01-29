@@ -1,0 +1,72 @@
+#profilepic {
+	height: auto;
+	width: auto;
+	max-width: 300px;
+	max-height: 300px;
+}
+
+#header {
+	background: linear-gradient(#e67e22, #9b59b6);
+	padding: 5px;
+	text-align: center;
+}
+
+#page{
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: right;
+}
+
+#home {
+	background-color: #bdc3c7;
+}
+
+#classes {
+	background-color: #95a5a6;
+}
+
+#hobbies {
+	background-color: #7f8c8d;
+}
+
+#worldview {
+	background-color: #f39c12;
+}
+
+#favmovies {
+	background-color: #27ae60;
+}
+
+#classeslist {
+	display: none;
+}
+
+#nav{
+	float: left;
+	width: 20px;
+	text-align: left;
+	padding: 10px;
+}
+
+h1{
+	margin: 0;
+}
+
+#main {
+	float: right;
+	width: 450px;
+	text-align: right;
+	padding-bottom: 30px;
+	padding-right: 10px;
+	border: 2px solid black;
+	box-shadow: 10px 10px 5px #888888;
+	margin-top: 20px;
+	border-radius: 5px;
+
+}
+
+	a:link    {color:orange; background-color:transparent; text-decoration:none}
+	a:visited {color:blue; background-color:transparent; text-decoration:none}
+	a:hover   {color:purple; background-color:transparent; text-decoration:none}
+	a:active  {color:yellow; background-color:transparent; text-decoration:none}
