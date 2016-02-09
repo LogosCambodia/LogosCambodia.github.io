@@ -1,0 +1,119 @@
+body {
+	background-color: grey;
+
+}
+#container {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+#name {
+	font-family: Helvetica;
+	font-size: 60px;
+	color: black;
+	text-align: center;
+	background-image: url(https://i.ytimg.com/vi/v1SabYdIlZI/maxresdefault.jpg);
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+#main-box .biography {
+	font-size: 20px;
+	color:white;
+	background-image: url(https://photokey5.files.wordpress.com/2012/04/cloudscapes016.jpg);
+	padding: inherit;
+}
+#main-box {
+	width: 800px;
+	margin-top: 26px;
+}
+#main-box .courses {
+	background-image: url(https://hoojobs.com/blog/wp-content/uploads/2013/11/o-STACK-OF-BOOKS-facebook-2.jpg);
+
+}
+
+#main-box .interest {
+	background-image: url(http://genheration.com/wp-content/uploads/2015/06/piano-music.jpg);
+	background-size:1300px 900px;
+}
+
+#main-box .worldview {
+	background-image: url(http://christianity.followersofyah.com/Cross.bmp);
+	background-size:1300px 900px;
+}
+
+#nav {
+	font-size: 20px;
+	text-decoration: none;
+	margin:0 auto;
+	width: 70px;
+	border-left:8px solid #F2C07E;
+	background-color: white;
+	min-height:200px;
+	float: left;
+	padding: 30px;
+}
+
+
+#picture {
+ -ms-transform: rotate(270deg); /* IE 9 */
+    -webkit-transform: rotate(270deg); /* Chrome, Safari, Opera */
+    transform: rotate(270deg);
+		float: right;
+		margin-top: 110px;
+    border: 3px solid #393A38;
+		border-radius: 10px;
+		box-shadow: 10px 5px 5px #181515;
+		width: 320px;
+}
+
+
+#title {
+	color:white;
+	font-size: 50px;
+}
+
+p1 {
+	color:white ;
+	font-size: 20px;
+	background-color: #585858
+}
+
+ul {
+	color:white;
+	font-size:16px;
+	background-color: #585858
+}
+p{
+	display: none;
+	font-family: "Arial";
+}
+
+
+
+#border-class {
+	border:3px solid #73AD21}
+
+
+
+
+
+#hobbies {
+	background-color:teal;}
+p2 {
+font-size: 20px;
+color:white;}
+
+
+
+ol1 {
+	font-size: 20px;
+	text-indent: 2em;
+	letter-spacing:2px;
+	line-height: 150%;
+
+}

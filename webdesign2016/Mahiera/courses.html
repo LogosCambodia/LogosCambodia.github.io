@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>mahiera's webpage</title>
+	<link rel="stylesheet" type="text/css" href="style.css"></link>
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+</head>
+
+	<body>
+		<div id="name"> Courses </div>
+		<div id="container">
+		<div id="nav"><br><a href="index.html">Home</a>
+			<br> <a href="courses.html">Courses</a>
+			<br> <a href="interest.html">Interest</a>
+			<br><a href="worldview.html">Worldview</a></div>
+
+
+
+	<div id="main-box" class="courses">
+
+<br><p1> Here in Logos International School, we are offered a wide variety of classes to choose from. The following are the ones I have chosen for this semester. </p1>
+
+<ul><button id="toggler">SHOW/HIDE descriptions</button><br>
+<script>
+		  $( "#toggler" ).click(function() {
+			$( "p" ).toggle("slow", function(){
+			    //everything in this function runs AFTER toggle finishes
+			    console.log("Is it visible? " + $( "#first" ).is( ":visible" ))
+			});
+			console.log("You clicked the toggle button!"); //runs immediately
+		  });
+	</script>
+<br>
+
+
+
+<li> Pre-Calculus:
+	<p id="border-class"> In this class, we learn more math and how to apply math skills that we have into real life situations like interest rates. Other times, we figure out the special relationships between radians and degrees.</p></li>
+<li> Physics:
+	<p id="border-class"> a class where we use logic and equations to figure out how much time does it take for a rock to fall from a 3m tall cliff when we throw it in a certain net velocity. We won’t use in daily life situations, but hey! it’s pretty interesting to see where the math comes from. </p> </li>
+<li> Biblical Thinkers:
+	<p id="border-class"> we are analysing the studies of Jonathan Edward, an American Theologian. It really keeps your brain stirred with questions and new ideas around faith. </p> </li>
+<li> Web Design:
+	<p id="border-class">I am able to make this website because of this class. THANK YOU MR. BURCHAM!</p></li>
+<li>21st Century Leadership:
+	<p id="border-class">As the new generation of the World, we learn to be responsible leaders and how to be a good one. Each student will have to come up with a service project that will be conducted towards the end of the year.</p></li>
+<li>British Literature:
+<p id="border-class"> We dive into the world of literature from the heart of the British Nation. We analyzed Shakespeare's sonnets and plays, Beowulf, and Cantebury tales. </p></li>
+<li>Mandarin 2:
+	<p id="border-class"> In this semester, we learn how to communicate with friends, asking directions, and learning a bunch of new words in Chinese</p></li>
+<li> Asian Studies:
+	<p id="border-class"> A class where we learn many things about Asian History, from the Opium Wars to the spread of communism in Asia. A very interesting class that I particularly love. </p></li>
+<li> Chapel Team:
+	<p id="border-class"> I love playing music, and this class jsut gives me a great oppurtunity to serve and use my talents to glorify God.I think I have become a better musician because of this class.</p></li>
+</div></div></body>
+</html>
