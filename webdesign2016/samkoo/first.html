@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+		<title>Food</title>
+	</head>
+	<body>
+	<h1>
+		Sam Koo
+	</h1>
+	<b>Food</b>
+	<br>		<p id="first-paragraph"> I love food.</p>
+		<br>
+		<p>I am hungry. I think I am craving for some guacamole.</P>		<br>
+	<br>
+	<br>
+
+	<img src="KIM.gif"></img>
+	<br>
+	<a href="https://www.google.com">TO GOOGLE</a>
+	<br>				<button id="toggler">HIDE!</button>
+		<script>
+			$( "#toggler" ).click(function() {
+			$( "#first" ).toggle("slow", function(){
+			    //everything in this function runs AFTER toggle finishes
+			    console.log("Is it visible? " + $( "#first" ).is( ":visible" ))
+			});
+			console.log("You clicked the toggle button!"); //runs immediately
+		  });
+	</script>
+
+			
+			
+		</script>	
+		<br>
+
+		
+	
+	</body>
+</html>
+
+

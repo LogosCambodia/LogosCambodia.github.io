@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html> 
+<head>
+	<title>ChillyWilly</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+</head>
+	<body> 
+		<h1>
+		Will Cham
+		</h1>
+	Hi, my name is <b> Bob </b>
+	<button id="toggler">Toggle!</button>
+	<script>
+		  $( "#toggler" ).click(function() {
+			$( "p1" ).toggle("slow", function(){
+			    //everything in this function runs AFTER toggle finishes
+			    console.log("Is it visible? " + $( "p1" ).is( ":visible" ))
+			});
+			console.log("You clicked the toggle button!"); //runs immediately
+		  });
+	</script>
+
+
+	<p1 class="indented2" id="small-para">
+yoyoyoyooyyoyoyo
+	</p1>
+		<p class="indented" id="first-paragraph">
+Hi, my name is Joe. My name is woah. 
+		</p>
+		<p class="indented" id="second-paragraph">
+Hi my name a borat. I come from kazakhstan.
+		</p>
+		<p class="indented">
+momomommmomoomom
+		</p>
+		<h2>
+Hobbies
+		</h2>
+		<ol>
+<li>watching videos</li>
+<li> football</li>
+<li>rubiks cube</li>
+		</ol>
+		<a href="course.html">Games</a> 
+	<br> 
+		<img class="center" src="unicorn_pic (another copy).png"> </img> 
+	<br>
+		<a href="http://youtube.com">bum</a> 
+	  
+	</body> 
+</html> 
+
