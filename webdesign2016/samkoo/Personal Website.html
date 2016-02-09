@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+		<style>
+		ul.double {border-style: double;}
+		</style>
+		<link rel="stylesheet" type="text/css" href="my.css">
+		<title>THE SAM KOO SCHEDULE</title>
+	</head>
+	<body id="body1">
+		<div id="def" name="def" title="THE SAM KOO SCHEDULE">
+		<h1 style="font-family:Georgia; color:yellow;font-size:50px;">THE SAM KOO SCHEDULE</h1>
+		<br>
+		<p>Semester 2 Courses</p>
+		<br>
+		<ul id="classes" class="double">
+			<li>Brit Lit</li>
+			<li>Pre-Calc</li>
+			<li>US History</li>
+			<li>Mandarin 2</li>
+			<li>Web Design</li>
+			<li>21st Century Leadership</li>
+		</ul>
+		<button id="toggler">Hide/Show</button>
+		<script>
+			$( "#toggler" ).click(function() {
+				$( "#classes" ).toggle("slow", function(){
+				console.log("Is it visible? " + $( "classes" ).is( ":visible" ))
+				});
+				console.log("You clicked the toggle button!");
+			});
+		</script>
+		<br>
+		<br>
+		<a href="worldview.html">Worldview</a>
+		<br>
+		<a href="interests.html">Interests</a>
+		<br>
+		<img src="samkoo.jpg"></img>
+	</body>
+</html>
+
