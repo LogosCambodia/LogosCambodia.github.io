@@ -1,0 +1,33 @@
+body {
+	background-color: white;
+	font-family: verdana;
+}
+
+#name {
+	font-size: 80px;
+}
+
+#biography {
+	font-size: 40px;
+}
+#picture{
+	border-radius: 25px;
+	border: 1px solid black;
+  width:450px;
+}
+#classes{
+	float:inherit;
+}
+table,th,td{
+	border: 1px solid black;
+}
+table{
+	width:100%;
+}
+th{
+	height:20px;
+	text-align:inherit;
+}
+td{
+	text-align:center;
+}
