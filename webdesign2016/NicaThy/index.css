@@ -1,0 +1,47 @@
+body{
+  background-image: url(good.jpg);
+}
+h1 {
+  margin:0;
+}
+#container {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#header {
+  background-color: #ddccff;
+  padding: 20px;
+  text-align: center;
+
+}
+#main {
+  #main {
+    background-color: white;
+    width: 650px;
+    float: right;
+    padding: 10px;
+  }
+}
+#nav {
+  float:left;
+  width: 120px;
+}
+#footer {
+  clear:both;
+  text-align: center;
+}
+#main-box {
+  border-radius: 10px;
+  border: 2px solid #ffccff;
+  margin: 10px;
+  padding: 10px;
+  box-shadow: 10px 10px 5px #ffccff ;
+  min-height: 125px;
+}
+img {
+    position: absolute;
+    left: 380px;
+    top: 350px;
+    z-index: -1;
+}

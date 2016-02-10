@@ -1,0 +1,69 @@
+body {
+        background-image:url("dash.png");
+
+}
+#content{
+  border-radius: 10px;
+  border: 3px solid black;
+  margin: 20px;
+  padding: 20px;
+  min-height: 125px;
+  border-color: #E09184;
+    float: left;
+}
+
+#name {
+  border-radius: 10px;
+  border: 3px solid black;
+  min-height: 125px;
+  border-color: #F2F244;
+    float: right;
+    width: 500px;
+
+}
+
+#head {
+      font-family: "Brush Script MT", Script;
+
+  }
+#head {
+    font-size: 60px;
+}
+#nav {
+  display: inline;
+}
+.image {
+    box-shadow: 10px 10px 10px #888888;
+
+
+}
+#button1 {
+  background-color:#E09184;
+  box-shadow: 10px 10px 10px #888888;
+}
+#button2 {
+  background-color:#84E0DC;
+  box-shadow: 10px 10px 10px #888888;
+}
+#button3 {
+  background-color:#F2F244;
+  box-shadow: 10px 10px 10px #888888;
+}
+#paragraphs {
+  float: right;
+  padding-right: 500px;
+
+}
+.indentedp1 {
+  padding-left: 50px;
+}
+
+#main-box {
+  border-radius: 10px;
+  border: 3px solid black;
+  margin: 20px;
+  padding: 20px;
+  min-height: 125px;
+  border-color: #84E0DC;
+  float: right;
+}

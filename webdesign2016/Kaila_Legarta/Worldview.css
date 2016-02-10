@@ -1,0 +1,15 @@
+body {
+  background-image: url("florale.jpg");
+}
+#heady {
+      font-family: "Brush Script MT", Script;
+
+  }
+#heady {
+    font-size: 60px;
+}
+
+.indenteda{
+  padding-left: 100px;
+  padding-right: 100px;
+}
