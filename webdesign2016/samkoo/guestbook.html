@@ -3,6 +3,8 @@
 <head>
 	<title>Assignment 013</title>
 	<style>
+  <title>Assignment 013</title>
+  <style>
   form {
       margin: 0 auto;
       width: 400px;
@@ -56,9 +58,11 @@ button {
 	</style>
 </head>
 <body>
-<form action="/my-handling-form-page" method="post">
+<div id="orig" name="orig" title="Interests">
+<h2 style="font-family:Courier; color:pink;font-size:50px;">THE SAM KOO GUESTBOOK</h2>
+<br>
     <div>
-        <label for="name">Name:</label>
+        <label for="name">Full Name:</label>
         <input type="text" id="name" />
     </div>
     <div>
@@ -66,9 +70,11 @@ button {
         <input type="email" id="mail" />
     </div>
     <div>
-        <label for="msg">Message:</label>
-        <textarea id="msg"></textarea>
+        <label for="web">Fav Website:</label>
+        <input type="web" id="site" />
     </div>
+        <label for="com">Comment:</label>
+        <textarea id="msg"></textarea>
 
     <div class="button">
         <button type="submit">Send your message</button>
