@@ -1,0 +1,23 @@
+div {
+    background-color: #4CCFD9;
+    width: 60px;
+    padding: 15px;
+    margin: 5px;
+    text-align: center;
+}
+
+body{
+   background-color: #B6F2B8;
+}
+.firstsemester{
+  text-align: center;
+  color: white;
+}
+.secondsemester{
+  text-align: center;
+  color: white;
+}
+#title{
+  text-align: center;
+  color: white;
+}
