@@ -8,26 +8,28 @@
     <form action="/my-handling-form-page" method="post">
       <h>Sign Up</h>
       <p>It's free and always will be</p>
+    <div id="text">
       <div>
         <label for="firstname"></label>
-        <input type="text" name="first_name" size="15" maxlength="100" placeholder="First Name" id="firstname" />
+        <input type="text" name="first_name" size="22" maxlength="150" placeholder="First Name" id="firstname" />
       </div>
       <div>
         <label for="lastname"></label>
-        <input type="text" name="last_name" size="15" maxlength="100" placeholder="Last Name" id="lastname" />
+        <input type="text" name="last_name" size="22" maxlength="150" placeholder="Last Name" id="lastname" />
       </div>
       <div>
         <label for="email"></label>
-        <input type="text" name="email" size="15" maxlength="100" placeholder="Your Email" id="email" />
+        <input type="text" name="email" size="48" maxlength="100" placeholder="Your Email" id="email" />
       </div>
       <div>
         <label for="re-email"></label>
-        <input type="text" name="re-email" size="15" maxlength="100" placeholder="Re-enter Email" id="re-email" />
+        <input type="text" name="re-email" size="48" maxlength="100" placeholder="Re-enter Email" id="re-email" />
       </div>
       <div>
         <label for="password"></label>
-        <input type="text" name="password" size="15" maxlength="100" placeholder="New Password" id="password" />
+        <input type="password" name="password" size="48" maxlength="100" placeholder="New Password" id="password" />
       </div>
+    </div>
       <p>Birthday</p>
       <div>
         <select name="birthmonth">
@@ -154,10 +156,18 @@
          </select>
       </div>
       <div id="gender">
-
+        <fieldset>
+          <label for="female"><input type="radio" name="g" id="female" value="F"> Female</label>
+          <label for="male"><input type="radio" name="g" id="male" value="M"> Male</label>
+        </fieldset>
       </div>
       <div id="footer">
-
+        <p>By clicking Sign Up for Facebook, you agree to our Terms and that you have read our Data Policy, including our Cookie Use.</p>
+      </div>
+      <div id="submit">
+        <button type="submit">
+          Sign Up for Facebook
+        </button>
       </div>
     </form>
 	</body>
