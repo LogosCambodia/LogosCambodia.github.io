@@ -1,0 +1,18 @@
+body {	
+	background-color: #CCE9C2
+}
+html {
+	background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/ColoredBlankMap-World-10E.svg/3100px-ColoredBlankMap-World-10E.svg.png) no-repeat center center fixed;
+	-webkit-background-size:cover;
+	-moz-background-size: cover;
+	-o-background-size:cover;
+	background-size:cover;
+	background-size: 100% 100%;
+}
+
+h1 {
+	text-align: center;
+}
+#paragraph1 {
+	font-size: 20px;
+}

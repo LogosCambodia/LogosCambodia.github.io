@@ -1,0 +1,53 @@
+body {
+  background-color: teal;
+}
+
+#container {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  margin: 0;
+}
+
+#header {
+  background-image: url(http://www.lancefarrow.ca/wp-content/uploads/2014/06/triangle-background-17.png);
+  background-position: center;
+  background-size: auto;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 5px 5px 2px grey;
+  border: 2px solid white;
+}
+
+#navigator {
+  background-color: lightgreen;
+  float: left;
+  width: 80px;
+  text-align: left;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+#main {
+  background-color: white;
+  float: right;
+  width: 680px;
+  padding: 10px;
+  border:2px solid black;
+  border-radius: 10px;
+}
+
+#footer {
+  background-color: grey;
+  padding: 10px;
+}
+
+#profilepic {
+   transform: rotate(90deg);
+   max-width: 150px;
+   float: right;
+   border: 2px solid black;
+}

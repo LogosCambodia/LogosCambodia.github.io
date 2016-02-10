@@ -1,0 +1,53 @@
+#body1 {
+	background-color: #95a5a6;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+}
+#header {
+	background-color: teal;
+	font-size: 50px;
+	font: arial;
+	border: 1px solid black;
+	border-radius: 10px;
+	margin: 20px;
+	padding: 5px;
+	box-shadow: 5px 5px 5px #888888;
+	min-height: 125px;
+}
+#bio {
+	background-color: #bdc3c7;
+	margin: 10px;
+	padding: 10px;
+	text-align: left;
+}
+#bio p {
+	text-indent: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	float: right;
+}
+
+#body2 {
+	background: url(wallpaper6.jpg);
+	background-size: 1300px 950px;
+	background-repeat: no-repeat;
+	font-size: 20px;
+	color: white;
+}
+#body3 {
+	background: url(wallpaper4.png);
+	background-size: 1300px 950px;
+	background-repeat: no-repeat;
+	font-size: 25px;
+}
+#body4 {
+	background: url(wallpaper5.png);
+	background-size: 1300px 950px;
+	background-repeat: no-repeat;
+	font-size: 25px;
+}
+
+p2{
+	display: none;
+}

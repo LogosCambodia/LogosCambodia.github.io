@@ -1,0 +1,92 @@
+#main-body{
+background-color: white;
+}
+
+#interest-body{
+background-color: green;
+}
+
+#world-body{
+background-color: rgb(193, 207, 183);
+}
+
+#world-body{
+background-color: rgb(135, 200, 229);
+}
+#faith
+	{
+		border-style: groove;
+	}
+
+#blit
+	{
+		border-style: groove;
+	}
+
+#ybook
+	{
+		border-style: groove;
+	}
+
+#web
+	{
+		border-style: groove;
+	}
+
+#calc
+	{
+		border-style: groove;
+	}
+
+	#main{
+		width: 900px;
+		float: right;
+		border-style: solid;
+    border-width: 2px;
+		background-color: rgb(37, 118, 135);
+		box-shadow: -1px 11px 57px 30px rgba(0,0,0,1);
+		padding: 50px 30px 50px 80px;
+	}
+#menu
+{
+
+	float:left;
+	width: 100px;
+	border-style: solid;
+    border-width: 2px;
+		min-height: 200px;
+		padding: 10px 10px 10px 10px;
+		height: 450px;
+		background-color: #ffb366;
+		border-radius: 25px;
+}
+#stats
+	{
+		border-style: groove;
+	}
+
+#phys
+	{
+		border-style: groove;
+	}
+
+#world
+	{
+		border-style: groove;
+	}
+
+#name{
+font-family: Trebuchet MS;
+background-color: #404040 ;
+color: white;
+text-align: center;
+font-size: 150%;
+}
+
+
+
+#biography{
+
+position: relative;
+bottom: 400px;
+}

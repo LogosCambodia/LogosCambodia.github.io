@@ -1,0 +1,106 @@
+body {
+        background-color: #AB7427;
+}
+p {
+	background-color: #BDBAAC;
+}
+#first-paragraph {
+ background-color: #E0CE7E;
+}
+.indented {
+		padding-left: 40px;
+	}
+<script>
+		  $( "#toggler" ).click(function() {
+		  	$( "p" ).toggle();
+		  });
+	</script>
+
+  #container {
+    background-color: #E2EFF9;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+  }
+
+  h1, h2, h3 {
+    margin: 0;
+  }
+
+  #header {
+    background-color: #F9F5E2;
+    padding: 10px;
+    text-align: center;
+  }
+
+  #nav {
+    width: 120px;
+    float: left;
+    padding-left: 10px;
+  }
+
+  #nav .selected {
+    font-weight: bold;
+  }
+
+  #nav ul {
+    list-style-type: none;
+    padding: 0px;
+  }
+
+  #nav a {
+    text-decoration: none;
+  }
+
+  #main {
+    background-color: white;
+    width: 650px;
+    float: right;
+    padding: 10px;
+  }
+
+  .inset-pic {
+    width: 100px;
+    float: right;
+    border-radius: 20px;
+  }
+
+  #main-box {
+    border-radius: 10px;
+    border: 1px solid black;
+    margin: 20px;
+    padding: 10px;
+    box-shadow: 10px 10px 5px #888888;
+    min-height: 125px;
+  }
+
+  #main-box.home {
+    background-color: #D3E5EB;
+  }
+
+  #main-box.courses {
+    background-color: #D4EBE9;
+  }
+
+  #footer {
+    clear: both;
+    padding: 10px;
+    background-color: #999999;
+    color: white;
+    text-align: right;
+  }
+  .snav-item:hover {
+    background-color: #C3C6C8;
+  }
+
+  .hover-nav-item {
+    background-color: #C3C6C8;
+  }
+
+  #more {
+    background-color: #F7FFD0;
+  }
+
+  #more-information {
+    display: none;
+  }
