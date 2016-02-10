@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<link rel="stylesheet" type="text/css" href="classes.css">
+<script type="text/javascript" src="script.js" ></script>
+ <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+</head>
+<script>
+		  $( "#toggler" ).click(function() {
+			$( ".firstsemester" ).toggle("slow", function(){
+
+			    console.log("Is it visible? " + $( ".firstsemester" ).is( ":visible" ))
+			});
+			console.log("You clicked the toggle button!");
+		  });
+	</script>
+<body>
+    <h1>Classes:</h1>
+
+<button id="toggler">Toggle!</button>
+<div class="firstsemester">First semester</div>
+  <div>math</div>
+  <div>bible</div>
+  <div>digital design</div>
+  <div>health</div>
+  <div>mandarin</div>
+  <div>history</div>
+  <div>english</div>
+  <div>science</div>
+
+<div class="secondsemester">Second semester</div>
+    <div>math</div>
+    <div>bible</div>
+    <div>web design</div>
+    <div>p.e</div>
+    <div>mandarin</div>
+    <div>history</div>
+    <div>english</div>
+    <div>science</div>
+
+
+</body>
+<a href= "index.html">Click to go back to homepage</a>
+</div>
+
+</html>

@@ -1,0 +1,32 @@
+div {
+    background-color: #4CCFD9;
+    width: 60px;
+    padding: 15px;
+    margin: 5px;
+    text-align: center;
+}
+h1 {
+  text-align: center;
+}
+body{
+  background-color: lightblue;
+}
+h4{
+  text-align: center;
+}
+.img{
+      position: absolute;
+      left: 530px;
+      top: 100px;
+      z-index: -1;
+  }
+.box {
+    background-color: #37B4BD;
+    width: 150px;
+    padding: 15px;
+    margin: 5px;
+}
+.right{
+  float:right;
+
+}
