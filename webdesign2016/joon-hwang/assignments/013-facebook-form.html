@@ -2,8 +2,7 @@
 <html>
 <head>
 	<title>Assignment 013</title>
-	<style>
-	</style>
+	<link rel="stylesheet" type="text/css" href="013-facebook-form-style.css">
 </head>
 <body>
   <h1>Sign Up </h1>
@@ -12,7 +11,7 @@
       <div>
           <label for="name"></label>
           <input type="text" id="first name" placeholder="First Name"/>
-      </div>
+			</div>
 
 			<div>
 					<label for="name"></label>
@@ -33,10 +32,11 @@
 					<label for="password"></label>
 					<input type="password" id="password" placeholder="New Password" />
 			</div>
-			
+
 			<div>
 				<select name="month" id="month" onchange="" size="1">
-			    <option value="01">January</option>
+					<option> Month </option>
+					<option value="01">January</option>
 			    <option value="02">February</option>
 			    <option value="03">March</option>
 			    <option value="04">April</option>
@@ -53,6 +53,7 @@
 
 			<div>
 				<select name="day" id="day"  size="1">
+					<option> Day </option>
 			    <option value="01">01</option>
 			    <option value="02">02</option>
 			    <option value="03">03</option>
@@ -88,7 +89,8 @@
 			</div	>
 
 			<div>
-				<select id="birthyear" name="birthyear">
+				<select id="birthyear" name="birthyear" size="1">
+					<option> Year </option>
 					<option value="2007">2007</option>
 					<option value="2006">2006</option>
 					<option value="2005">2005</option>
@@ -199,5 +201,21 @@
 					<option value="1900">1900</option>
 				</select>
 
-  </form>	</body>
+				<fieldset>
+					<p><label for="g1"><input type="radio" name="g" id="g1" value="F"> Female</label></p>
+				  <p><label for="g2"><input type="radio" name="g" id="g2" value="M"> Male</label></p>
+				</fieldset>
+
+				<br>
+					By clicking Sign Up, you agree to our Terms and that you have read our Data Use Policy, including our Cookie Use.
+				<br>
+
+				<div id="signupbutton">
+					<button type="submit">
+						Sign Up
+					</button>
+				</div>
+
+
+	</form>	</body>
 </html>
