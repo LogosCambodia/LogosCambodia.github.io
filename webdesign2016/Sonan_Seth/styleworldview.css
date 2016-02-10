@@ -1,0 +1,67 @@
+body {
+background-color: #7A9F35;
+}
+
+#picture {
+	float: right;
+}
+
+#name { font-family: monospace; font-size: 25px; font-style: italic; }{
+
+
+}
+#backb {
+	font-size: 25px;
+}
+#headerc {
+text-align: center;
+text-decoration: overline underline;
+font-family: monospace;
+}
+
+#wviewtitle {
+	font-family: monospace;
+}
+
+#biography {
+	font-size: 40px;
+}
+
+#knobthingdiv{
+float: right;
+margin-top: -60px;
+
+
+}
+#courses {
+	text-align: center;
+	font-family: monospace;
+	background-color: #A5C663;
+	margin: 0px;
+	border-radius: 25px;
+	border: 7px solid#226666;
+
+}
+
+#ititle{
+	text-align: center;
+	font-family: monospace;
+}
+#interesttext{
+	font-family: monospace;
+float: left;
+width: 650px;
+font-size: 18px;
+background-color: #4D648D;
+border-radius: 25px;
+border: 7px solid #0251E3;
+}
+#name{
+}
+#knobthing {
+	margin: 0px;
+	border-radius: 25px;
+	border: 12px solid#0251E3;
+width: 500px;
+
+}

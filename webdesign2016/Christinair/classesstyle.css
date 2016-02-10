@@ -1,0 +1,48 @@
+body {
+	background-color: #E0E0E0;
+}
+#toggler {
+	font-size: 20px;
+}
+
+#science {
+	background-color: #F566FA;
+}
+#math {
+	background-color: grey;
+}
+#pe {
+	background-color: orange;
+}
+#khmer {
+	background-color: red;
+}
+#wd {
+	background-color: #00CC00;
+}
+#history {
+	background-color: mediumpurple;
+}
+#bible {
+	background-color: #0066FF;
+}
+#english {
+	background-color: yellow;
+}
+#chapel {
+	background-color: white;
+}
+table, th, td {
+	border: 1px solid black;
+}
+table {
+	width: 100%;
+}
+	th {
+		height: 20px;
+		text-align:center;
+	}
+	td {
+		text-align: center;
+	}
+}
