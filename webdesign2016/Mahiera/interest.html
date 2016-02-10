@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>mahiera's webpage</title>
+	<link rel="stylesheet" type="text/css" href="style.css"></link>
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+</head>
+
+	<body>
+
+			<div id="name"> My interests </div>
+			<div id="container">
+			<div id="nav"><br><a href="index.html">Home</a>
+				<br> <a href="courses.html">Courses</a>
+				<br> <a href="interest.html">Interest</a>
+				<br><a href="worldview.html">Worldview</a></div>
+
+
+
+		<div id="main-box" class="interest">
+
+<p2> The following are my interests and hobbies aka things I do for fun :) </p2>
+
+<ul1> <br> <button id="toggler">SHOW/HIDE descriptions</button><br>
+<script>
+		  $( "#toggler" ).click(function() {
+			$( "p" ).toggle("slow", function(){
+			    //everything in this function runs AFTER toggle finishes
+			    console.log("Is it visible? " + $( "#first" ).is( ":visible" ))
+			});
+			console.log("You clicked the toggle button!"); //runs immediately
+		  });
+	</script>
+<li id="hobbies">music:
+<p> I grew up learning the piano, violin, GuZheng, and many other instruments. I fell in love with the world of notes and harmony. click <a href="https://www.facebook.com/Cam-Melody-Ltd-212580332091728/"> here </a> to know more about where I study music.</p></li>
+<li id="hobbies">swimming:
+<p> my love for the water knows no limits.</p></li>
+<li id="hobbies">watching tv shows
+<p> you just can't help it. watching tv shows is pretty addicting.</p></li>
+</ul1>
+</body>
+</html>
