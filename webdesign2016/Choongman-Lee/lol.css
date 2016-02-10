@@ -21,7 +21,7 @@ h1, h2 {
 }
 
 #main {
-  width: 650px;
+  width: 780px;
   background-color: grey;
   float: right;
   padding: 10px;
@@ -52,7 +52,7 @@ h1, h2 {
   background-color: ;
 }
 
-ul {
+#nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -60,11 +60,11 @@ ul {
     background-color: green;
 }
 
-li {
+#nav li {
     float: left;
 }
 
-li a {
+#nav a {
     display: inline-block;
     color: white;
     text-align: center;
@@ -72,10 +72,18 @@ li a {
     text-decoration: none;
 }
 
-li a:hover {
+#nav li a:hover {
     background-color: #111;
 }
 
+#nav .selected {
+  font-weight: bold;
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
 
 #footer {
 	  clear: both;
