@@ -1,0 +1,46 @@
+body {
+	background-color: #ff3399 ;
+}
+#name {
+	font: arial;
+	font-size: 20px;
+	text-align: center;
+	background-color: #ff33cc;
+}
+#menu {
+	font: arial;
+	font-size: 15px;
+	line-height: 30px;
+	background-color: #ff33cc;
+	line-height: 30px;
+	height: 200px;
+	width: 90px;
+	float: left;
+	padding:5px;
+	text-align: inherit;
+}
+#classes {
+	background-color: #0066FF;
+	font-size: 15px;
+}
+#interests {
+	background-color: #00FF33;
+	font-size: 15px;
+}
+#worldview {
+	background-color: #888888;
+	font-size: 15px;
+}
+#biography {
+	font-size: 15px;
+	font-family: sans-serif;
+	width: 1000px;
+	padding: 10px;
+	float: left;
+}
+ img {
+	 height: 200px;
+	 width: auto;
+	 border: 3px solid #ff00ff;
+	 float: right;
+ }

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Classes</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+<body id="body2">
+	<h1>My Classes</h1>
+<button id="toggler">Expand/hide</button>
+	<script>
+		  $( "#toggler" ).click(function() {
+		  	$( "p2" ).toggle("slow");
+console.log("Is it visible? " + $( "p2" ).is( ":visible" ) );
+console.log("You clicked the toggle button!");
+		  });
+	</script>
+
+
+	<ol>
+<li>British Literature</li>
+<p2 id="smrry">We learn about literature, stories and satire.</p2>
+<li>Algebra 2</li>
+<p2 id="smrry">We learn about math and their problems</p2>
+<li>Asian Studies</li>
+<p2 id="smrry">We learn about asian history, historical figure and their problems.</p2>
+<li>Biblical Thinker</li>
+<p2 id="smrry">We learn how to think biblically.</p2>
+<li>Khmer level 2</li>
+<p2 id="smrry">We learn how to speak, read, and write khmer.</p2>
+<li>21st Century Leadership</li>
+<p2 id="smrry">We learn how to be leaders.</p2>
+<li>Web Design</li>
+<p2 id="smrry">We learn how to code all these things.</p2>
+<li>AP Economics</li>
+<p2 id="smrry">We learn how the economy works and how things flows through and around it.</p2>
+	</ol>
+	<a href="interests.html">Interests</a>
+	<a href="worldview.html">worldview</a>
+	<a href="index.html">Return</a>
+	</body>
+</html>

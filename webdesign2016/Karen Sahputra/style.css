@@ -1,0 +1,18 @@
+body {
+	background-color: white;
+}
+
+#picture {
+	float: right; 
+}
+
+#name {
+	font-size: 60px;
+}
+
+#biography {
+	font-size: 40px;
+	
+}
+
+

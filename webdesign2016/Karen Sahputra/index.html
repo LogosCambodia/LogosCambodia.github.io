@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Karen</title>
+<link rel="stylesheet" type="text/css" href="style-project.css">
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+<body>
+<button id="toggler">Hide</button>
+<script>
+		  $( "#toggler" ).click(function() {
+		  $( "p" ).toggle("slow");
+		  });
+	</script>
+		<div id="name">Karen Sahputra</div>
+		<p> Click on the picture for biography </p>
+		<div id="picture">
+			<a href="biography.html"><img src="Christmas 2015.jpg" /></a>
+		</div>
+			<br>
+				<div id="classes">
+			<h1> Classes </h1>
+		</div>
+			<button id="table_toggler">Hide</button>
+			<script>
+					  $( "#table_toggler" ).click(function() {
+				  		$( "#table" ).toggle("slow");
+					  });
+				</script>
+			<table id="table">
+  <tr><th>Monday</th><th>Tuesday</th><th>Wednesday</th><th>Thursday</th><th>Friday</th></tr>
+  <tr><td>Science</td><td>Algebra 2</td><td>PE</td><td>Mandarin</td><td>Web Design</td></tr>
+	<tr><td>Histort</td><td>Web Design</td><td>Mandarin</td><td>Science</td><td>English</td></tr>
+	<tr><td>Algebra 2</td><td>PE</td><td>Bible</td><td>English</td><td>Bible</td></tr>
+	<tr><td>Bible</td><td>Science</td><td>History</td><td>Algebra 2</td><td>PE</td></tr>
+	<tr><td>Mandarin</td><td>English</td><td>Web Design</td><td>Chapel</td><td>History</td></tr>
+</table>
+	</body>
+</html>

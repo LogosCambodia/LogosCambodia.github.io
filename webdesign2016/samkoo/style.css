@@ -1,0 +1,15 @@
+body {
+	background-color: purple;
+}
+
+p { 
+	background-color: yellow;
+}
+
+#first-paragraph {
+	background-color: #DE97D9;
+}
+
+.indented {
+	padding-left: 40px;
+}
