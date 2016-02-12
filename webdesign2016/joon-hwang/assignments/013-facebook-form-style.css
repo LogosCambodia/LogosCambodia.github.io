@@ -4,8 +4,18 @@
 
 h1{
   font-size: 40px;
+  margin-bottom:5px;
 }
 
 h2{
   font-size: 20px;
+  margin: 0px;
+}
+
+body{
+  width: 500px;
+}
+
+#firstname{
+  float: left;
 }
