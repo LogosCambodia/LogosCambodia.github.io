@@ -6,32 +6,36 @@
   </head>
   <body>
     <form action="/my-handling-form-page" method="post">
+    <div id="title">
       <h>Sign Up</h>
+    </div>
+    <div id="main-content">
       <p>It's free and always will be</p>
     <div id="text">
       <div>
         <label for="firstname"></label>
-        <input type="text" name="first_name" size="22" maxlength="150" placeholder="First Name" id="firstname" />
+        <input type="text" name="first_name" maxlength="150" placeholder="First Name" id="firstname" />
       </div>
       <div>
         <label for="lastname"></label>
-        <input type="text" name="last_name" size="22" maxlength="150" placeholder="Last Name" id="lastname" />
+        <input type="text" name="last_name" maxlength="150" placeholder="Last Name" id="lastname" />
       </div>
       <div>
         <label for="email"></label>
-        <input type="text" name="email" size="48" maxlength="100" placeholder="Your Email" id="email" />
+        <input type="text" name="email" maxlength="100" placeholder="Your Email" id="email" />
       </div>
       <div>
         <label for="re-email"></label>
-        <input type="text" name="re-email" size="48" maxlength="100" placeholder="Re-enter Email" id="re-email" />
+        <input type="text" name="re-email" maxlength="100" placeholder="Re-enter Email" id="re-email" />
       </div>
       <div>
         <label for="password"></label>
-        <input type="password" name="password" size="48" maxlength="100" placeholder="New Password" id="password" />
+        <input type="password" name="password" maxlength="100" placeholder="New Password" id="password" />
       </div>
     </div>
+      <div id="birthday">
       <p>Birthday</p>
-      <div>
+      <div id="month">
         <select name="birthmonth">
         	<option>Month</option>
         	<option value="January">January</option>
@@ -48,7 +52,7 @@
         	<option value="December">December</option>
         </select>
       </div>
-      <div>
+      <div id="day">
         <select name="birthday">
         	<option>Day</option>
         	<option value="1">1</option>
@@ -83,7 +87,8 @@
         	<option value="30">30</option>
         	<option value="31">31</option>
         </select>
-      <div>
+      </div>
+      <div id="year">
         <select name="birthyear">
            <option>Year</option>
            <option value="2007">2016</option>
@@ -155,20 +160,20 @@
            <option value="1950">1950</option>
          </select>
       </div>
+    </div>
       <div id="gender">
-        <fieldset>
           <label for="female"><input type="radio" name="g" id="female" value="F"> Female</label>
           <label for="male"><input type="radio" name="g" id="male" value="M"> Male</label>
-        </fieldset>
       </div>
       <div id="footer">
-        <p>By clicking Sign Up for Facebook, you agree to our Terms and that you have read our Data Policy, including our Cookie Use.</p>
+        <p>By clicking Sign Up, you agree to our Terms and that you have read our Data Use Policy, including our Cookie Use.</p>
       </div>
       <div id="submit">
         <button type="submit">
           Sign Up for Facebook
         </button>
       </div>
+    </div>
     </form>
 	</body>
 </html>
