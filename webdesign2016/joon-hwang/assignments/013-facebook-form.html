@@ -9,31 +9,29 @@
   <h1>Sign Up </h1>
   <h2> It's free and always will be.</h2>
   <form action="/my-handling-form-page" method="post">
-      <div id="input" class="firstname">
-          <label for="name"></label>
-          <input type="text" id="first name" placeholder="First Name"/>
+
+      <div>
+          <input type="text" id="firstname" placeholder="First Name" size="20"/>
 			</div>
 
-			<div id="input" class="lastname">
-					<label for="name"></label>
+			<div>
 					<input type="text" id="last name" placeholder="Last Name"/>
 			</div>
 
-      <div id="input" class="mail">
-          <label for="mail"></label>
-          <input type="email" id="mail" placeholder="Your Email" />
+      <div>
+          <input type="email" id="mail" placeholder="Your Email" size="42"/>
       </div>
 
-			<div id="input" class="reenteredmail">
-          <label for="mail"></label>
-          <input type="email" id="re-entered mail" placeholder="Re-enter Email" />
+			<div>
+          <input type="email" id="re-enteredmail" placeholder="Re-enter Email" size="42" />
       </div>
 
-			<div id="input" class="password">
-					<label for="password"></label>
-					<input type="password" id="password" placeholder="New Password" />
+			<div>
+					<input type="password" id="password" placeholder="New Password" size="42" />
 			</div>
-<div id="birthdaytext"> Birthday </div>
+
+			<div id="birthdaytext"> Birthday </div>
+
 			<div id="month">
 				<select name="month" id="month" onchange="" size="1">
 					<option> Month </option>
@@ -208,7 +206,7 @@
 				</div>
 
 				<div id="signuptext">
-					By clicking Sign Up, you agree to our Terms and that you have read our Data Use Policy, including our Cookie Use.
+					By clicking Sign Up, you agree to our Terms and that you  <br> have read our Data Use Policy, including our Cookie Use.
 				</div>
 
 				<div id="signupbutton">

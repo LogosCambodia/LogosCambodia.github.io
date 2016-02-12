@@ -16,16 +16,28 @@ body{
   width: 500px;
 }
 
-#input{
+#mail{
   margin-bottom: 5px;
-  margin-top: 5px;
   margin-right: 5px;
 }
 
-.firstname{
-float: left;
+#reenteredmail{
+  margin-bottom: 5px;
+  margin-right: 5px;
 }
 
+#password{
+  margin-bottom: 5px;
+  margin-right: 5px;
+}
+
+#firstname{
+  float: left;
+}
+
+#lastname{
+  padding-top: 10px;
+}
 
 #month{
   float: left;
@@ -33,6 +45,19 @@ float: left;
 
 #day{
   float: left;
+}
+
+#gender{
+  margin: 10px;
+}
+
+#signuptext{
+  font-size: 12px;
+}
+
+#signupbutton{
+  margin-top: 20px;
+  width: 100px;
 }
 
 body {
