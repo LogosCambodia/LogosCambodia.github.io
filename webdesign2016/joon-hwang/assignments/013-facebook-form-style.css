@@ -16,6 +16,29 @@ body{
   width: 500px;
 }
 
-#firstname{
+#input{
+  margin-bottom: 5px;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+
+.firstname{
+float: left;
+}
+
+
+#month{
   float: left;
+}
+
+#day{
+  float: left;
+}
+
+body {
+  width: 400px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: "Freight Sans Bold", "Lucida Grande", Tahoma, Verdana, Arial, sans-serif
+
 }

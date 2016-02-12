@@ -4,36 +4,37 @@
 	<title>Assignment 013</title>
 	<link rel="stylesheet" type="text/css" href="013-facebook-form-style.css">
 </head>
+
 <body>
   <h1>Sign Up </h1>
   <h2> It's free and always will be.</h2>
   <form action="/my-handling-form-page" method="post">
-      <div id="firstname">
+      <div id="input" class="firstname">
           <label for="name"></label>
           <input type="text" id="first name" placeholder="First Name"/>
 			</div>
 
-			<div id="lastname">
+			<div id="input" class="lastname">
 					<label for="name"></label>
 					<input type="text" id="last name" placeholder="Last Name"/>
 			</div>
 
-      <div>
+      <div id="input" class="mail">
           <label for="mail"></label>
           <input type="email" id="mail" placeholder="Your Email" />
       </div>
 
-			<div>
+			<div id="input" class="reenteredmail">
           <label for="mail"></label>
           <input type="email" id="re-entered mail" placeholder="Re-enter Email" />
       </div>
 
-			<div>
+			<div id="input" class="password">
 					<label for="password"></label>
 					<input type="password" id="password" placeholder="New Password" />
 			</div>
-
-			<div>
+<div id="birthdaytext"> Birthday </div>
+			<div id="month">
 				<select name="month" id="month" onchange="" size="1">
 					<option> Month </option>
 					<option value="01">January</option>
@@ -51,7 +52,7 @@
 				</select>
 			</div>
 
-			<div>
+			<div id="day">
 				<select name="day" id="day"  size="1">
 					<option> Day </option>
 			    <option value="01">01</option>
@@ -201,14 +202,14 @@
 					<option value="1900">1900</option>
 				</select>
 
-				<fieldset>
-					<p><label for="g1"><input type="radio" name="g" id="g1" value="F"> Female</label></p>
-				  <p><label for="g2"><input type="radio" name="g" id="g2" value="M"> Male</label></p>
-				</fieldset>
+				<div id="gender">
+					<label for="g1"><input type="radio" name="g" id="g1" value="F"> Female</label>
+				  <label for="g2"><input type="radio" name="g" id="g2" value="M"> Male</label>
+				</div>
 
-				<br>
+				<div id="signuptext">
 					By clicking Sign Up, you agree to our Terms and that you have read our Data Use Policy, including our Cookie Use.
-				<br>
+				</div>
 
 				<div id="signupbutton">
 					<button type="submit">
@@ -217,5 +218,6 @@
 				</div>
 
 
-	</form>	</body>
+	</form>
+	</body>
 </html>
