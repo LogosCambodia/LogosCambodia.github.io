@@ -1,0 +1,18 @@
+#console {
+  background-color: #212121;
+  width: 800px;
+  font-size: 20px;
+  font-family: monospace;
+  color: white;
+
+  border-radius: 5px;
+  height: 500px;
+
+}
+
+textarea {
+  width: 800px;
+  padding: 3px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+}
