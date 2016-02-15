@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Example API REST query</title>
+  <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+  <link rel="stylesheet" href="style.css" type="text/css"></link>
+  <script>
+    var alchemy_endpoint = "https://gateway-a.watsonplatform.net/calls/data/GetNews";
+    var alchemy_key = "";
+    var api_url = alchemy_endpoint+"?apikey="+alchemy_key+"&outputMode=json&start=now-1d&end=now&count=10&return=enriched.url.url,enriched.url.title";
+
+    function search(){
+      var call = api_url + "&q.enriched.url.title="+htmlEscape($("#search-field").val());
+      console.log(call);
+
+      $("#search-results").html("Running query... Please wait...");
+
+      //make a call to the api service
+      $.getJSON( call, function( data ) {
+        var items = [];
+
+        if(!data.hasOwnProperty("result"))
+        {
+          console.log("no match");
+          $("#search-results").html("No matches (or error). Try again.<br><br>"+JSON.stringify(data));
+          return;
+        }
+
+        var result = data.result.docs; // the resulting hits come as "document" objects
+
+        $.each( result, function( key, obj ) {
+          var title = obj.source.enriched.url.title;
+          var url = obj.source.enriched.url.url;
+          items.push( "<li><a href='"+url+"' target='_blank'>"+title+"</a></li>" );
+        });
+
+        $("#search-results").html(items.join(""));
+      });
+    }
+
+    function htmlEscape(str) {
+        return String(str)
+                .replace(/&/g, '&amp;')
+                .replace(/"/g, '&quot;')
+                .replace(/'/g, '&#39;')
+                .replace(/</g, '&lt;')
+                .replace(/>/g, '&gt;')
+                .replace(/ /g, '%20');
+
+    }
+
+  </script>
+</head>
+<body>
+  <h1>IBM Watson Alchemy News Query</h1>
+  <h4>Enter a search term into the box below and IBM's Watson AI Supercomputer
+    will search all of the news in the last day for anything related.</h4>
+
+  <div id="search-box">
+    <input type="text" name="search-query" id="search-field" placeholder="Enter news search keyword"></input>
+    <input type="button" value="Search!" onclick="search();" id="search-button"></input>
+  </div>
+
+  <div id="search-results">
+    <span>Ready!</span>
+  </div>
+
+</body>
+</html>
