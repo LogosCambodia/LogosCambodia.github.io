@@ -11,6 +11,10 @@ body {
   font-weight: bold;
 }
 
+#header {
+  font-size: 18px;
+}
+
 #main-content {
   font-family: "Freight Sans", "Lucida Grande", Tahoma, Verdana, Arial, sans-serif;
 }
@@ -64,25 +68,47 @@ body {
   font-size: 20px;
   border-radius: 5px;
 }
-]
 
-#birthday {
-  margin-bottom: 15px;
+#bheader {
+  font-size: 18px;
 }
 
 #month {
   float: left;
+  
 }
 
 #day {
   float: left;
 }
 
+#bexplain {
+  float: right;
+  font-size: 10px;
+  font-family: "Freight Sans", "Lucida Grande", Tahoma, Verdana, Arial, sans-serif;
+}
+
+#gender {
+  font-size: 18px;
+}
+
 #footer {
   font-size: 10px;
   padding-right: 130px;
+  font-family: "Freight Sans", "Lucida Grande", Tahoma, Verdana, Arial, sans-serif;
 }
 
-#submit {
+.bluetext {
+  color: blue;
+}
 
+button {
+  background-color: #659d50;
+  color: white;
+  width: 185px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-family: "Freight Sans Bold", "Lucida Grande", Tahoma, Verdana, Arial, sans-serif;
+  font-size: 18px;
+  border-radius: 6px;
 }
