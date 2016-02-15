@@ -6,13 +6,15 @@ background-color: white;
 background-color: green;
 }
 
-#world-body{
-background-color: rgb(193, 207, 183);
-}
 
 #world-body{
 background-color: rgb(135, 200, 229);
 }
+
+#guest-body{
+background-color: rgb(123, 123, 157)
+}
+
 #faith
 	{
 		border-style: groove;
