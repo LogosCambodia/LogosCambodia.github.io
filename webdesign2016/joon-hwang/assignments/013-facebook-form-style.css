@@ -26,6 +26,9 @@ body{
   width: 250px;
   margin-bottom: 5px;
   border-radius: 5px;
+  padding-top:5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
 }
 
 #lastname{
@@ -34,6 +37,9 @@ body{
   float: right;
   margin-bottom: 5px;
   border-radius: 5px;
+  padding-top:5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
 }
 
 #mail{
@@ -42,6 +48,9 @@ body{
   font-size: 20px;
   width: 500px;
   border-radius: 5px;
+  padding-top:5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
 }
 
 #re-enteredmail{
@@ -50,6 +59,9 @@ body{
   font-size: 20px;
   width: 500px;
   border-radius: 5px;
+  padding-top:5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
 }
 
 #password{
@@ -58,6 +70,9 @@ body{
   font-size: 20px;
   width: 500px;
   border-radius: 5px;
+  padding-top:5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
 }
 
 #month{
