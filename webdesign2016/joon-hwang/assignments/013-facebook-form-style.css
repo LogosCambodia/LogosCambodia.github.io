@@ -4,12 +4,13 @@
 
 h1{
   font-size: 40px;
-  margin-bottom:5px;
+  margin-bottom:1px;
 }
 
 h2{
   font-size: 20px;
-  margin: 0px;
+  margin-bottom: 20px;
+
 }
 
 body{
@@ -57,10 +58,7 @@ body{
   font-size: 20px;
   width: 500px;
   border-radius: 5px;
-
 }
-
-
 
 #month{
   float: left;
@@ -81,4 +79,8 @@ body{
 #signupbutton{
   margin-top: 20px;
   width: 100px;
+}
+
+.bluetext{
+  color: blue;
 }
