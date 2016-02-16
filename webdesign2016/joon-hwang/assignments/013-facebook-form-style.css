@@ -14,30 +14,53 @@ h2{
 
 body{
   width: 500px;
+  margin: auto;
+  font-family: "Freight Sans Bold", "Lucida Grande", Tahoma, Verdana, Arial, sans-serif
+}
+
+
+#firstname{
+  float: left;
+  font-size: 20px;
+  width: 250px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+#lastname{
+  font-size: 20px;
+  width: 240px;
+  float: right;
+  margin-bottom: 5px;
+  border-radius: 5px;
 }
 
 #mail{
   margin-bottom: 5px;
   margin-right: 5px;
+  font-size: 20px;
+  width: 500px;
+  border-radius: 5px;
 }
 
-#reenteredmail{
+#re-enteredmail{
   margin-bottom: 5px;
   margin-right: 5px;
+  font-size: 20px;
+  width: 500px;
+  border-radius: 5px;
 }
 
 #password{
-  margin-bottom: 5px;
+  margin-bottom: 10px;
   margin-right: 5px;
+  font-size: 20px;
+  width: 500px;
+  border-radius: 5px;
+
 }
 
-#firstname{
-  float: left;
-}
 
-#lastname{
-  padding-top: 10px;
-}
 
 #month{
   float: left;
@@ -58,12 +81,4 @@ body{
 #signupbutton{
   margin-top: 20px;
   width: 100px;
-}
-
-body {
-  width: 400px;
-  margin-right: auto;
-  margin-left: auto;
-  font-family: "Freight Sans Bold", "Lucida Grande", Tahoma, Verdana, Arial, sans-serif
-
 }
