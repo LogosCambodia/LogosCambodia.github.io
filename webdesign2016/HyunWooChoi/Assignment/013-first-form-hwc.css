@@ -1,0 +1,115 @@
+body {
+  background: #edeff4;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+}
+
+#title {
+  font-family: "Freight Sans Bold", "Lucida Grande", Tahoma, Verdana, Arial, sans-serif;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+#header {
+  font-size: 18px;
+}
+
+#main-content {
+  font-family: "Freight Sans", "Lucida Grande", Tahoma, Verdana, Arial, sans-serif;
+}
+
+#firstname {
+  float: left;
+  margin-right: 9px;
+  margin-bottom: 10px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 5px;
+  width: 185px;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+#lastname {
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 5px;
+  width: 185px;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+#email {
+  margin-bottom: 10px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 5px;
+  width: 388px;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+#re-email {
+  margin-bottom: 10px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 5px;
+  width: 388px;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+#password {
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 5px;
+  width: 388px;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+#bheader {
+  font-size: 18px;
+}
+
+#month {
+  float: left;
+}
+
+#day {
+  float: left;
+}
+
+#bexplain {
+  float: right;
+  font-size: 10px;
+  font-family: "Freight Sans", "Lucida Grande", Tahoma, Verdana, Arial, sans-serif;
+}
+
+#gender {
+  font-size: 18px;
+  float: left;
+}
+
+#footer {
+  float: left;
+  font-size: 10px;
+  padding-right: 130px;
+  font-family: "Freight Sans", "Lucida Grande", Tahoma, Verdana, Arial, sans-serif;
+}
+
+.bluetext {
+  color: blue;
+}
+
+button {
+  background-color: #659d50;
+  color: white;
+  width: 185px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-family: "Freight Sans Bold", "Lucida Grande", Tahoma, Verdana, Arial, sans-serif;
+  font-size: 18px;
+  border-radius: 6px;
+}
