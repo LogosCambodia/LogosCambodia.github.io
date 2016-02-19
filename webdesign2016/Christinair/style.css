@@ -1,0 +1,54 @@
+body {
+	background-color: #E0E0E0;
+}
+
+h2{
+background-color:;
+}
+
+#first-paragraph {
+background-color: green;
+}
+
+.intended {
+	padding-left: 40px;
+}
+
+#science {
+	background-color: #F566FA;
+}
+#math {
+	background-color: grey;
+}
+#pe {
+	background-color: orange;
+}
+#khmer {
+	background-color: red;
+}
+#wd {
+	background-color: green;
+}
+#history {
+	background-color: purple;
+}
+#bible {
+	background-color: blue;
+}
+#english {
+	background-color: yellow;
+}
+table, th, td {
+	border: 1px solid black;
+}
+table {
+	width: 100%;
+}
+	th {
+		height: 20px;
+		text-align:inherit;
+	}
+	td {
+		text-align: inherit;
+	}
+}

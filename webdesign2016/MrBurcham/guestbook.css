@@ -1,0 +1,39 @@
+#guestbook-form
+{
+  margin: 20px;
+  padding: 10px;
+  margin: auto;
+}
+
+.form-control{
+  margin: 10px;
+}
+
+#form-controls {
+  width: 465px;
+  margin: auto;
+  overflow: auto;
+}
+
+input, textarea, select, button {
+  width : 220px;
+  padding: 7px;
+  margin: 0;
+  box-sizing: border-box;
+  border: 1px dotted #999;
+  border-radius: 0;
+  font-family : inherit;
+  font-size   : 100%;
+}
+
+input[name=email], textarea[name=comment]
+{
+  width: 444px;
+}
+
+input[type=submit]
+{
+  float: right;
+  margin: 10px;
+  clear: both;
+}
