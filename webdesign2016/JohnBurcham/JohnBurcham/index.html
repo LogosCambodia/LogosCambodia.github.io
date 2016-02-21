@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+	<title>O Johnny Boi</title>
+</head>
+<body id="blue">
+<div id="name">John Burcham</div>
+		<div id="biography" class='color'>I smell awesome! if you like bad smell.
+This is of course assuming weeks without bathing. That doesnt happen... often</div>
+		<div id="picture"> <img src="https://upload.wikimedia.org/wikipedia/commons/b/b9/Llama_lying_down.jpg" alt="photo" HEIGHT="300" WIDTH="400" BORDER="0"></div>
+		<div class="txtblack" id="menu">
+				<ul>
+					<li><a href='worldview.html'>My worldviews</a></li>
+					<li><a href='classes.html'>My classes</a></li>
+					<li><a href="interests.html">My interests<a/></li>
+					<li><a href="assignments/guestbook.html"></a></li>
+				</ul>
+		</div>
+		<button id="toggler">Toggle!</button>
+		<div id="first">
+			<h3>Dances</h3>
+				<ul>
+					<li>tango</li>
+					<li>waltz</li>
+					<li>swing</li>
+				</ul>
+			</div>
+			<script>
+			$( "#toggler" ).click(function() {
+			$( "#first" ).toggle("slow", function(){
+					console.log("Is it visible? " + $( "#first" ).is( ":visible" ))
+						});
+					console.log("You clicked the toggle button!");
+			});
+			</script>
+
+	</body>
+</html>

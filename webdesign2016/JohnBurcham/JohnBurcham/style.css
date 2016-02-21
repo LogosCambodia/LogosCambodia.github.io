@@ -1,0 +1,57 @@
+body {
+	background-color: blue;
+}
+
+.red {
+	background-color: red;
+}
+
+.yellow{
+	background-color: yellow;
+}
+
+.green {
+	background-color: green;
+}
+
+#picture {
+	float: right;
+}
+
+#name {
+	font-size: 60px;
+}
+
+#biography {
+	font-size: 40px;
+}
+
+#color {
+	text-decoration-color: yellow;
+}
+
+.what {
+	float: right;
+	border-width: 25px 25px 3px 9px;
+	border-style: dashed;
+	width: 25%;
+}
+
+.who {
+	border-width: 10px 10px 10px 10px;
+	border-style: solid;
+	width: 65%;
+	float: left;
+}
+.shadow {
+	box-shadow: 5px 3px grey;
+	background-color: #303030;
+	color: #cfcfcf;
+}
+.rounded {
+	border-radius: 15px;
+	background: #303030;
+}
+.txtblack {
+	color: black;
+}
