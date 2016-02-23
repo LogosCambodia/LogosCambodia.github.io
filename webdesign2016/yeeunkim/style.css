@@ -1,0 +1,32 @@
+.index{
+ background-color:#F7F4EB>
+}
+#name {
+  text-align: center
+}
+#main-image {
+  text-align: center
+}
+#rcorners1 {
+
+    border-radius: 70px;
+    background: #F5E173;
+    padding: 100px;
+    width: 180px;
+    height: 70px;
+
+}
+#interests {
+  text-align:center
+
+}
+#worldview {
+  text-align: center
+}
+#classes {
+  text-align: center
+}
+
+#h1 {
+  text-align: center;
+}

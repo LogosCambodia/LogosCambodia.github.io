@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://cdn.pubnub.com/pubnub-dev.js"></script>
+  <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+  <link rel="stylesheet" href="pubnub-style.css" type="text/css"></link>
+
+  <!-- Instantiate PubNub -->
+  <script type="text/javascript">
+
+      var PUBNUB_demo = PUBNUB.init({
+          publish_key: 'pub-c-9e0c2eba-8a21-4eb0-8012-9d6f58174a8e',
+          subscribe_key: 'sub-c-fe36a20c-d25d-11e5-8a35-0619f8945a4f'
+      });
+
+      $(document).ready(function(){
+        console.log("Starting up...");
+        clear_message();
+        write_message("Starting up...");
+        PUBNUB_demo.subscribe({
+            channel: 'demo',
+            message: function(m){write_message(m.message);}
+        });
+        clear_message();
+        write_message("Ready.");
+        console.log("done.");
+      });
+
+      function clear_message() { $("#console").html("");};
+
+      function write_message(message)
+      {
+        $("#console").append(message+"<br/>");
+      }
+
+      function send_message()
+      {
+        PUBNUB_demo.publish({
+            channel: 'demo',
+            message: {"message":$("#outgoing-message").val()}
+        });
+        $("#outgoing-message").val("");
+      }
+
+  </script>
+</head>
+<body>
+
+  <div id="console">
+    <span class="startup-message">Locking on target!</span>
+  </div>
+
+  <div id="sender">
+    <textarea id="outgoing-message" placeholder="Type your message here."></textarea>
+    <button onclick="send_message()" name="button" value="Send">Send</button
+  </div>
+
+</body>
+</html>
