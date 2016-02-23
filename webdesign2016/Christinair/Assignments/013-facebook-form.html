@@ -2,32 +2,70 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Assignment 013</title>
 	<style>
-		Your css style can be in-document for this assignment.
-	</style>
+	form {
+		margin: 0 auto;
+		width: 400px;
+		padding: 1em;
+		border: 1px solid #CCC;
+		border-radius: 10px;
+		background-color: #ededed;
+		font-family: "Freight Sans Bold", "Lucida Grande", Tahoma, Verdana, Arial, sans-serif;
+	}
+#names {
+	width: 400px;
+	display: inline;
+}
+input {
+	border-radius: 3px;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+#mail {
+	width: 355px;
+}
+#remail {
+	width: 355px;
+}
+#pass {
+	width: 355px;
+}
+
+button {
+			background-color: #659d50;
+			font-size: 15px;
+			color: white;
+			margin-left: auto;
+			border-radius: 7px;
+			padding: 10px;
+			width: 150px;
+	}
+	#end {
+		font-size: 12px;
+	}
+		</style>
 </head>
 <body>
 <form action="/my-handling-form-page" method="post">
-	<div>
-			<label for="firstname"> First Name:</label>
-			<input type="text" id="firstname" />
+		<h1> Sign Up </h1>
+	<p> It's free and always will be. </p>
+		<div id= "names">
+			<input type="text" id="firstname" placeholder="First Name"/>
+			<input type="text" id="lastname" placeholder="Last Name"/>
+</div>
+<div>
+			<input type="text" id="mail" placeholder="Your Email" />
+			<div>
+			<input type="text" id="remail" placeholder="Re-enter Email"/>
+			</div>
 	</div>
 	<div>
-			<label for="lastname"> Last Name:</label>
-			<input type="text" id="lastname" />
+			<input type="text" id="pass" placeholder="New Password"/>
 	</div>
-	<div>
-			<label for="mail"> Your Email:</label>
-			<input type="email" id="mail" />
-	</div>
-	<div>
-			<label for="pass">New Password:</label>
-			<textarea id="pass"></textarea>
-	</div>
-	<p> Birthday <p>
+	<br>
+<div id= "birthday"> Birthday </div>
 	<select>
-	<optgroup label="Month">
+	<option > Month </option>
 	<option> January </option>
 	<option> February </option>
 	<option> March </option>
@@ -40,29 +78,45 @@
 	<option> October </option>
 	<option> November </option>
 	<option> December </option>
-	</optgroup>
-	<optgroup label="Day">
+	</select>
+	<select>
+	<option> Day </option>
 	<option> 1 </option>
 	<option> 2 </option>
 	<option> 3 </option>
 	<option> 4 </option>
 	<option> 5 </option>
 	<option> 6 </option>
-	<option> July </option>
-	<option> August </option>
-	<option> September </option>
-	<option> October </option>
-	<option> November </option>
-	<option> December </option>
-	</optgroup>
-
-
-
-
+	<option> 7 </option>
+	<option> 8 </option>
+	<option> 9 </option>
+	<option> 10 </option>
+	<option> 11 </option>
+	<option> 12 </option>
+</select>
+<select>
+<option> Year </option>
+<option> 1995 </option>
+<option> 1996 </option>
+<option> 1997 </option>
+<option> 1998 </option>
+<option> 1999 </option>
+<option> 2000 </option>
+<option> 2001 </option>
+<option> 2002 </option>
+<option> 2003 </option>
+</select>
+<br>
+<label for="g1"><input type="radio" name="g" id="g1" value="M"> Male</label>
+<label for="g2"><input type="radio" name="g" id="g2" value="F"> Female</label>
+<br>
+<br>
+ <div id= "end"> By clicking Sign Up, you agree to our Terms and that you have read our Data
+	Use Policy, including our Cookie Use. </div>
+	<br>
 	<div class="button">
 			<button type="submit">Sign Up</button>
 	</div>
 </form>
-
 	</body>
 </html>

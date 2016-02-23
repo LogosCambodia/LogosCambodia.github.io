@@ -36,7 +36,8 @@ input, textarea {
 input:focus, textarea:focus {
 
     border-color: #000;
-}
+}textarea {
+
 textarea {
 
     vertical-align: top;
@@ -55,30 +56,36 @@ button {
 
     margin-left: .5em;
 }
+
 	</style>
 </head>
 <body>
 <div id="orig" name="orig" title="Interests">
 <h2 style="font-family:Courier; color:pink;font-size:50px;">THE SAM KOO GUESTBOOK</h2>
 <br>
-    <div>
-        <label for="name">Full Name:</label>
-        <input type="text" id="name" />
-    </div>
-    <div>
-        <label for="mail">E-mail:</label>
-        <input type="email" id="mail" />
-    </div>
-    <div>
-        <label for="web">Fav Website:</label>
-        <input type="web" id="site" />
-    </div>
-        <label for="com">Comment:</label>
-        <textarea id="msg"></textarea>
+</div>
+  <html>
+    <form action="http://rememberthepoor.asia/webdesign/echo_post.php" method="POST">
+      <div id="form-controls">
+        <div id="form-name" class="form-control">
+          <input type="text" name="firstname" placeholder="First Name">
+          <input type="text" name="lastname" placeholder="Last Name">
+        </div>
+        <div id="form-email" class="form-control">
+          <input type="text" name="email" placeholder="Email">
+        </div>
+        <div id="form-comment" class="form-control">
+          <textarea name="comment" placeholder="Comment to share?"></textarea>
+            </div>
+            <div id="form-submit">
+              <input type="submit" value="Save">
+            </div>
+          </div>
+        </form>
+  	     <div id="return_guestbook">
+			        <br>
+			           <a href="index.html">Return</a>
 
-    <div class="button">
-        <button type="submit">Send your message</button>
-    </div>
-</form>
-	</body>
+		    </div>
+      </body>
 </html>

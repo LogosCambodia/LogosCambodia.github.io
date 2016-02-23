@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Assignment 013</title>
+    <link rel="stylesheet" href="facebook.css" type="text/css"></link>
+  </head>
+  <body>
+      <form action="/my-handling-form-page" method="post">
+        <b>Sign Up for Free</b>
+        <div>
+          <input type="text" name="first_name" size="15" maxlength="100" placeholder="First Name">
+        </div>
+        <div>
+          <input type="text" name="last_name" size="15" maxlength="100" placeholder="Last Name">
+        </div>
+        <div>
+          <input type="text" name="E-mail" size="15" maxlength="100" placeholder="E-mail">
+        </div>
+        <div>
+          <input type="password" name="Password" size="15" maxlenght="100" placeholder="Password">
+        </div>
+        <div>
+          <fieldset>
+            <legend>What gender are you?</legend>
+            <p><label for="g1"><input type="radio" name="g" id="g1" value="M"> Male</label></p>
+            <p><label for="g2"><input type="radio" name="g" id="g2" value="F"> Female</label></p>
+          </fieldset>
+        </div>
+        <div>
+          <label for="myDate">Birthday</label>
+          <input type="date" min="1900-01-01" max="2016-02-12" id="myDate">
+        </div>
+
+
+        <div class="button">
+          <button type="submit">Sign Up!</button>
+        </div>
+      </form>
+    </body>
+  </html>

@@ -4,18 +4,98 @@
 
 h1{
   font-size: 40px;
-  margin-bottom:5px;
+  margin-bottom:1px;
 }
 
 h2{
   font-size: 20px;
-  margin: 0px;
+  margin-bottom: 20px;
+
 }
 
 body{
   width: 500px;
+  margin: auto;
+  font-family: "Freight Sans Bold", "Lucida Grande", Tahoma, Verdana, Arial, sans-serif
 }
+
 
 #firstname{
   float: left;
+  font-size: 20px;
+  width: 250px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  padding-top:5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+}
+
+#lastname{
+  font-size: 20px;
+  width: 240px;
+  float: right;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  padding-top:5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+}
+
+#mail{
+  margin-bottom: 5px;
+  margin-right: 5px;
+  font-size: 20px;
+  width: 500px;
+  border-radius: 5px;
+  padding-top:5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+}
+
+#re-enteredmail{
+  margin-bottom: 5px;
+  margin-right: 5px;
+  font-size: 20px;
+  width: 500px;
+  border-radius: 5px;
+  padding-top:5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+}
+
+#password{
+  margin-bottom: 10px;
+  margin-right: 5px;
+  font-size: 20px;
+  width: 500px;
+  border-radius: 5px;
+  padding-top:5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+}
+
+#month{
+  float: left;
+}
+
+#day{
+  float: left;
+}
+
+#gender{
+  margin: 10px;
+}
+
+#signuptext{
+  font-size: 12px;
+}
+
+#signupbutton{
+  margin-top: 20px;
+  width: 100px;
+}
+
+.bluetext{
+  color: blue;
 }
