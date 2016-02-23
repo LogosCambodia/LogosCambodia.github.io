@@ -55,7 +55,6 @@ h1{
 
 #main {
 	float: right;
-	width: 450px;
 	text-align: right;
 	padding-bottom: 30px;
 	padding-right: 10px;
@@ -63,8 +62,45 @@ h1{
 	box-shadow: 10px 10px 5px #888888;
 	margin-top: 20px;
 	border-radius: 5px;
+}
+
+#form{
+	float: right;
+	align-content: center;
+}
+
+#submitbutton{
+}
+
+#fullname{
+	padding:5px;
+	font-size: 20px;
+	width: 280px;
+	text-align: center;
+}
+
+#formemail{
+	padding:5px;
+	font-size: 20px;
+	width: 280px;
+	text-align: center;
+}
+
+#formwebsite{
+	padding:5px;
+	font-size: 20px;
+	width: 280px;
+	text-align: center;
+}
+
+#formcomment{
+	padding:5px;
+	font-size: 20px;
+	width: 280px;
+
 
 }
+
 
 	a:link    {color:orange; background-color:transparent; text-decoration:none}
 	a:visited {color:blue; background-color:transparent; text-decoration:none}
