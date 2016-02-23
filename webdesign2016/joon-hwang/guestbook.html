@@ -10,29 +10,42 @@
 
   <div id="header"> <h1> welcome to joon's personal website! </h1> </div>
 
-  <div id="form">
-    <div>
-        <input type="text" id="full" placeholder="your full name" size="30"/>
-    </div>
-    <div>
-        <input type="email" id="email" placeholder="your email" size="30"/>
-    </div>
-    <div>
-        <input type="text" id="favoritewebsite" placeholder="what's your favorite webiste?" size="30">
-    </div>
-    <div>
-        <input type="text" id="comment" placeholder="leave a comment!"/ size="30">
-    </div>
+	<div id="nav">
+			<a href="index.html"> home</a> <br>
+			<a href="classesjoon.html"> classes</a> <br>
+			<a href="hobbiesjoon.html"> hobbies </a> <br>
+			<a href="worldviewjoon.html"> worldview <br>
+			<a href="favoritemoviesjoon.html"> favorite movies </a>
+			<a href="guestbook.html"> guestbook </a>
+	</div>
+
+
+<div id="formtext">
+  <h2> welcome to joon's guestbook! </h2>
+</div>
+
+<form action="http://webdesign.students.logoscambodia.org/echo_post.php" method="POST">
+<div id="form">
+  <div id="fullname">
+      <input type="text" id="fullname" placeholder="your full name"/>
   </div>
-
-  <div id="nav">
-      <a href="classesjoon.html" target="_blank"> classes</a> <br>
-      <a href="hobbiesjoon.html" target="_blank"> hobbies </a> <br>
-      <a href="worldviewjoon.html" target="_blank"> worldview <br>
-      </a> and <a href="favoritemoviesjoon.html" target="_blank"> favorite movies </a>
+  <div id="formemail">
+      <input type="email" id="formemail" placeholder="your email"/>
   </div>
+  <div id="formwebsite">
+      <input type="text" id="formwebsite" placeholder="what's your favorite webiste?"/>
+  </div>
+  <div id="formcomment">
+      <textarea  type="text" id="formcomment" placeholder="leave a comment!"> </textarea>
+  </div>
+</div>
+</form>
 
-
+<div id="submitbutton">
+	<button type="submit">
+	send!
+	</button>
+</div>
 
 </body>
 </div>

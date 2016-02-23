@@ -65,8 +65,36 @@ h1{
 }
 
 #form{
-	float: left;
+	float: center;
+	align-content: center;
 }
+
+#submitbutton{
+}
+
+#fullname{
+	padding:5px;
+	font-size: 20px
+}
+
+#formemail{
+	padding:5px;
+	font-size: 20px
+
+}
+
+#formwebsite{
+	padding:5px;
+	font-size: 20px
+
+}
+
+#formcomment{
+	padding:5px;
+font-size: 20px
+
+}
+
 
 	a:link    {color:orange; background-color:transparent; text-decoration:none}
 	a:visited {color:blue; background-color:transparent; text-decoration:none}
