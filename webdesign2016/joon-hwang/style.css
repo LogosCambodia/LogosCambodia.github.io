@@ -65,7 +65,7 @@ h1{
 }
 
 #form{
-	float: center;
+	float: right;
 	align-content: center;
 }
 
@@ -74,24 +74,30 @@ h1{
 
 #fullname{
 	padding:5px;
-	font-size: 20px
+	font-size: 20px;
+	width: 280px;
+	text-align: center;
 }
 
 #formemail{
 	padding:5px;
-	font-size: 20px
-
+	font-size: 20px;
+	width: 280px;
+	text-align: center;
 }
 
 #formwebsite{
 	padding:5px;
-	font-size: 20px
-
+	font-size: 20px;
+	width: 280px;
+	text-align: center;
 }
 
 #formcomment{
 	padding:5px;
-font-size: 20px
+	font-size: 20px;
+	width: 280px;
+
 
 }
 
