@@ -1,0 +1,30 @@
+body{
+
+  background-color: #E7EAEE;
+  margin: auto;
+  width:400px;
+  font: "Freight Sans Bold", "Lucida Grande", Tahoma, Verdana, Arial, sans-serif
+}
+#last-name{
+  float: right;
+}
+input {
+  width:196px;
+  height:30px;
+}
+input[name="email"],input[name="reEnter"], input[type="password"] {
+  width:400px;
+}
+input[type="submit"]{
+  width:90px;
+  height:30px;
+  background-color: #659d50;
+  color: white;
+}
+input[type="radio"]{
+  height:15px;
+  width:15px;
+}
+#text h1{
+  font-family: "Freight Sans Bold", "Lucida Grande", Tahoma, Verdana, Arial, sans-serif;
+}
