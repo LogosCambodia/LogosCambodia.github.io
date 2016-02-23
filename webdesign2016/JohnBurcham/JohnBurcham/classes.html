@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head id="blue">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+	<title>Mah Classes</title>
+</head>
+  <body class="yellow">
+		<button id="toggler">Toggle on/off</button>
+		<div class="border who" id="first">
+        <h3>Physics</h3>
+			<p> this is a class about understanding the transfers of energy between the world, be it kinetic and how it moves or
+				how fast iron will heat up with 40000 joules put into it.<p>
+        <h3>AP World History</h3>
+				<p>A class about understanding the general global trends of the world through all of the worlds known history.
+        <h3>AP Calculus</h3>
+				<p>This is a challenging class about learning to do the early calc stuff one needs to know
+			 </p>
+        <h3>Drama</h3>
+				<p>A awesome after school class in which we prepare a drama production</p>
+        <h3>Web design</h3>
+				<p>A class taught by my father in which we learn how to code and make a website</p>
+        <h3>Leadership</h3>
+				<p>A class that teaches us the important qualities of leadership by teaching us values and having
+				make a project in which we will need to apply such leadership qualities.</p>
+        <h3>Worldviews</h3>
+				<p>A great class tought by Mr. Hughes which talks about the different worldviews and why Christianity is the only viable one.</p>
+			</div>
+			<div class="what" >
+				<ul>
+					<li>llama</li>
+					<li>llama1</li>
+					<li>llama2</li>
+					<li>llama3</li>
+					<li>llama4</li>
+				</ul>
+			</div>
+			<a href='index.html'>back</a>
+	<script>
+	$( "#toggler" ).click(function() {
+	$( "#first" ).toggle("slow", function(){
+			console.log("Is it visible? " + $( "#first" ).is( ":visible" ))
+				});
+			console.log("You clicked the toggle button!");
+	});
+	</script>
+  </body>
+</html>
