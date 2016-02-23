@@ -11,7 +11,7 @@ body {
 
 #name {
 	font-family: Helvetica;
-	font-size: 60px;
+	font-size: 30px;
 	color: black;
 	text-align: center;
 	background-image: url(https://i.ytimg.com/vi/v1SabYdIlZI/maxresdefault.jpg);
@@ -19,44 +19,61 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 }
+#nav {
+	font-size: 20px;
+	border-left:8px solid #F2C07E;
+	background-color: white;
+	padding-bottom: 10px;
+	margin-top: 10px;
+	padding-left: 10px;
+}
 
-
-#main-box .biography {
+#main-box.biography {
 	font-size: 20px;
 	color:white;
 	background-image: url(https://photokey5.files.wordpress.com/2012/04/cloudscapes016.jpg);
-	padding: inherit;
 }
+
 #main-box {
 	width: 800px;
 	margin-top: 26px;
 }
-#main-box .courses {
+#main-box.courses {
 	background-image: url(https://hoojobs.com/blog/wp-content/uploads/2013/11/o-STACK-OF-BOOKS-facebook-2.jpg);
+	height: 1000px;
 
 }
 
-#main-box .interest {
+#main-box.interest {
 	background-image: url(http://genheration.com/wp-content/uploads/2015/06/piano-music.jpg);
 	background-size:1300px 900px;
+	height: 1000px;
+
+
 }
 
-#main-box .worldview {
+#main-box.worldview {
 	background-image: url(http://christianity.followersofyah.com/Cross.bmp);
 	background-size:1300px 900px;
+	height: 1000px;
+
 }
 
-#nav {
-	font-size: 20px;
-	text-decoration: none;
-	margin:0 auto;
-	width: 70px;
-	border-left:8px solid #F2C07E;
-	background-color: white;
-	min-height:200px;
-	float: left;
-	padding: 30px;
+#main-box.guestbook {
+		text-align: center;
 }
+
+
+ #text {
+	margin: auto;
+	width: 700px;
+	text-decoration: none;
+	padding-bottom: 10px;
+	margin-top: 10px;
+	padding-left: 10px;
+	padding-right: 20px;
+}
+
 
 
 #picture {
@@ -80,13 +97,13 @@ body {
 p1 {
 	color:white ;
 	font-size: 20px;
-	background-color: #585858
 }
 
 ul {
 	color:white;
 	font-size:16px;
-	background-color: #585858
+	background-color: #585858;
+	padding-bottom: 20px;
 }
 p{
 	display: none;
@@ -115,5 +132,62 @@ ol1 {
 	text-indent: 2em;
 	letter-spacing:2px;
 	line-height: 150%;
+
+}
+
+form {
+	/*Just to center the form on the page*/
+	width: 700px;
+	/* To see the outline of the form */
+	padding: 1em;
+	background-image: url(https://i.ytimg.com/vi/v1SabYdIlZI/maxresdefault.jpg);
+	margin: auto;
+
+}
+
+#firstname {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	font-size: 14px;
+	border-radius: 0.3px;
+	width: 200px;
+	font-style: italic;
+}
+
+#lastname {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	font-size: 14px;
+	border-radius: 0.3px;
+	width: 200px;
+	font-style: italic;
+
+
+}
+
+#mail	{
+		margin-top: 10px;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		padding-left: 5px;
+		font-size: 14px;
+		border-radius: 0.3px;
+		width: 412px;
+		font-style: italic;
+
+	}
+
+#msg {
+	margin-top: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	font-size: 14px;
+	height: 100px;
+	width: 412px;
+	border-radius: 0.3px;
+	font-style: italic;
 
 }
