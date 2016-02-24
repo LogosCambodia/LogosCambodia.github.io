@@ -21,11 +21,11 @@ h1, h2 {
 }
 
 #main {
-  width: 650px;
+  width: 780px;
   background-color: grey;
   float: right;
   padding: 10px;
-	height: 450px;
+	height: 610px;
 }
 
 .inset-pic {
@@ -52,7 +52,7 @@ h1, h2 {
   background-color: ;
 }
 
-ul {
+#nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -60,11 +60,11 @@ ul {
     background-color: green;
 }
 
-li {
+#nav li {
     float: left;
 }
 
-li a {
+#nav a {
     display: inline-block;
     color: white;
     text-align: center;
@@ -72,10 +72,18 @@ li a {
     text-decoration: none;
 }
 
-li a:hover {
+#nav li a:hover {
     background-color: #111;
 }
 
+#nav .selected {
+  font-weight: bold;
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
 
 #footer {
 	  clear: both;
@@ -99,4 +107,49 @@ li a:hover {
 
 #more-information {
   display: none;
+}
+
+#guestbook-form
+{
+  margin: 20px;
+  padding: 10px;
+  margin: auto;
+}
+
+.form-control{
+  margin: 10px;
+}
+
+#form-controls {
+  width: 465px;
+  margin: auto;
+  overflow: auto;
+}
+
+input, textarea, select, button {
+  width : 220px;
+  padding: 7px;
+  margin: 0;
+  box-sizing: border-box;
+  border: 1px dotted #999;
+  border-radius: 0;
+  font-family : inherit;
+  font-size   : 100%;
+}
+
+input[name=email], textarea[name=comment]
+{
+  width: 444px;
+}
+
+input[type=submit]
+{
+  float: right;
+  margin: 10px;
+  clear: both;
+}
+
+#image {
+  width: 210px;
+  margin: auto;
 }

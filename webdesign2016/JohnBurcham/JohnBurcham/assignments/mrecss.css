@@ -1,0 +1,72 @@
+.name {
+  width: 100px;
+}
+
+button {
+  background-color: #659d50;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  border-radius: 5px;
+  width: 193px;
+  height: 40px;
+  font-size: 19px;
+  background: linear-gradient(#67ae55, #578843);
+  border: 1px solid;
+  text-shadow: 0 1px 2px rgba(0,0,0,.5);
+  letter-spacing: 1px;
+  font-family: "Freight Sans Bold", "Lucida Grande", Tahoma, Verdana, Arial, sans-serif;
+  }
+
+body {
+  font-family: "Freight Sans Bold", "Lucida Grande", Tahoma, Verdana, Arial, sans-serif;
+}
+.name {
+  width: 195px;
+  display: inline;
+  margin: 10px;
+}
+
+.birthday {
+  padding: 0;
+  margin: 0;
+  display: inline;
+  font-size: 13px;
+  height: 30px;
+  padding: 5px;
+}
+.namez  {
+  width: 194px;
+  height: 40px;
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: 5px;
+}
+.inputs {
+  align-self: right;
+  border: 1px solid;
+  border-radius: 5px;
+  width: 405px;
+  height: 40px;
+  padding: 5px;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+.birthdaylabel {
+  font-size: 18px;
+  font-style: bold;
+}
+.why {
+  font-size: 11px;
+  max-width: 150px;
+}
+.terms {
+  font-size: 11px;
+}
+.radio {
+  font-size: 12px;
+}
+input:placeholder-shown {
+  font-size: 18px;
+}

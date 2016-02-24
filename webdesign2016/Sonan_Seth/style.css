@@ -1,0 +1,29 @@
+body {
+	background-color: #e600e5;
+}
+
+#picture {
+	float: right;
+}
+
+#name { font-family: monospace; font-size: 75px; font-style: italic; }{
+
+
+}
+
+#biography {
+	font-size: 40px;
+}
+
+#footer{
+	text-align: left;
+	background-color: #EA00A9;
+	width: 500px;
+}
+
+#forms {
+
+	text-align: left;
+	background-color: #EA00A9;
+	width: 500px;
+}
