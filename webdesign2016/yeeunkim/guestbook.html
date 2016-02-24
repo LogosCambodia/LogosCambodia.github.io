@@ -1,0 +1,54 @@
+
+<html>
+<head>
+  <title>Sign our guestbook!</title>
+  <link rel="stylesheet" href="style.css" type="text/css"></link>
+  <link rel="stylesheet" href="guestbook.css" type="text/css"></link>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <script type="text/javascript" src="script.js" ></script>
+</head>
+<body>
+  <div id="container">
+    <div id="header"></div>
+    <div id="content">
+      <div id="nav">
+        <ul>
+          <li class="nav-item">Home</li>
+          <li class="nav-item"><a href="classes.html">Classes</a></li>
+          <li class="nav-item"><a href="interests.html">Interests</a></li>
+          <li class="nav-item"><a href="worldview.html">Worldview</a></li>
+          <li class="selected">Guestbook</li>
+        </ul>
+      </div>
+      <div id="main">
+        <div id="main-box" class="home">
+          <img class="inset-pic" src="profile.png"/>
+          <h2>An old fashioned guestbook</h2>
+          <p>Yes, it is a bit old fashioned, but a guestbook is a nice way to let me know you visited and share a comment with me.</p>
+          <hr/>
+          <div id="guestbook-form">
+            <form action="http://rememberthepoor.asia/webdesign/echo_post.php" method="POST">
+              <div id="form-controls">
+                <div id="form-name" class="form-control">
+                  <input type="text" name="firstname" placeholder="First Name"/>
+                  <input type="text" name="lastname" placeholder="Last Name"/>
+                </div>
+                <div id="form-email" class="form-control">
+                  <input type="text" name="email" placeholder="Email"/>
+                </div>
+                <div id="form-comment" class="form-control">
+                  <textarea name="comment" placeholder="Comment to share?"></textarea>
+                </div>
+                <div id="form-submit">
+                  <input type="submit" value="Save"/>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="footer"><!-- footer.html--></div>
+  </div>
+</body>
+</html>
