@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>  <link rel="stylesheet" type="text/css" href="formcss.css">
+</head>
+<body>
+<form action="/my-handling-form-page" method="post">
+  <div>
+      <label for="name">Name:</label>
+      <input type="text" id="name" />
+  </div>
+  <div>
+      <label for="mail">E-mail:</label>
+      <input type="email" id="mail" name="user_email"/>
+  </div>
+  <div>
+      <label for="msg">Message:</label>
+      <textarea id="msg"></textarea>
+  </div>
+  <div class="button">
+    <button type="submit">Send your message</button>
+  </div>
+
+
+<input type="text" pattern="cherry|banna$">
+<input type="email" multiple>
+<input type="password">
+<input type="search" autosave>
+<input type="tel">
+<input type="url">
+<textarea cols="20" rows="10"></textarea>
+
+<select>
+  <optgroup label="fruits">
+    <option>Banana</option>
+    <option selected>Cherry</option>
+    <option>Lemon</option>
+  </optgroup>
+  <optgroup label="vegetables">
+    <option>Carrot</option>
+    <option>Eggplant</option>
+    <option>Potatoe</option>
+  </optgroup>
+</select>
+<label for="myFruit">What's your favorite fruit?</label>
+<input type="text" id="myFruit" list="mySuggestion" />
+<datalist id="mySuggestion">
+  <option>Apple</option>
+  <option>Banana</option>
+  <option>Blackberry</option>
+  <option>Blueberry</option>
+  <option>Lemon</option>
+  <option>Lychee</option>
+  <option>Peach</option>
+  <option>Pear</option>
+</datalist>
+<input type="checkbox" checked>
+<input type="radio" checked>
+<button type="submit">
+  This a <br><strong>submit button</strong>
+</button>
+<input type="submit" value="This is a submit button">
+<button type="reset">
+  This a <br><strong>reset button</strong>
+</button>
+<button type="anonymous">
+  This a <br><strong>anonymous button</strong>
+</button>
+<input type="reset" value="This is a reset button"
+<input type="date">
+<input type="datetime">
+<input type="datetime-local">
+<input type="month">
+<input type="time">
+<input type="week">
+<label for="myDate">When are you available this summer?</label>
+<input type="date" min="2013-06-01" max="2013-08-31" id="myDate">
+<input type="color">
+<input type="file" accept="image/*"multiple>
+<input type="hidden" name="timestamp" value="1286705410">
+<meter min="0" max="100" value="75" low="33" high="66" optimum="50">75</meter>
+
+</form>
+</body>
+</html>
