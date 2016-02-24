@@ -1,0 +1,74 @@
+<html>
+<head>
+  <title>Sign Up Sheet Guestbook</title>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <script type="text/javascript" src="script.js" ></script>
+  <style>
+#form{
+  width: 500px;
+}
+#container{
+  background-color: #E6B2A8;
+}
+.kaila{
+  font-family: "Courier New", monospace;
+  margin-top: 10px;
+}
+#form-controls{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+#guestbook-form{
+  width: 400px;
+}
+input[type="text"]{
+	width: 250px;
+}
+#form-comment{
+  width:300px;
+}
+
+
+  </style>
+</head>
+<body>
+  <div id="form">
+  <div id="container">
+    <div id="header"><!-- header.html --></div>
+    <div id="content">
+      <div id="nav">
+      </div>
+      <div id="main">
+        <div id="main-box" class="home">
+          <center>
+          <h2 class="kaila">Kaila's Guestbook</h2>
+          <p>Sign up and leave a comment!</p>
+          <hr/>
+          <div id="guestbook-form">
+            <form action="http://webdesign.students.logoscambodia.org/echo_post.php" method="POST">
+              <div id="form-controls">
+                <div id="form-name" class="form-control">
+                  <input type="text" name="firstname" placeholder="First Name"/>
+                  <input type="text" name="lastname" placeholder="Last Name"/>
+                </div>
+                <div id="form-email" class="form-control">
+                  <input type="text" name="email" placeholder="Email"/>
+                </div>
+                <div id="form-comment" class="form-control">
+                  <textarea name="comment" placeholder="Comment to share?"></textarea>
+                </div>
+                <div id="form-submit">
+                  <input type="submit" value="Save"/>
+                </center>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="footer"><!-- footer.html--></div>
+  </div>
+</div>
+</body>
+</html>
