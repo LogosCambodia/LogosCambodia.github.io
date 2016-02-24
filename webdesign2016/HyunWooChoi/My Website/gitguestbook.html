@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>My Website</title>
+    <link rel="stylesheet" href="gitstyle.css" type="text/css"></link>
+    <script type="text/javascript" src="gitscript.js" ></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  </head>
+    <body>
+      <div id="container">
+        <div id="header">
+          <h1>Guestbook</h1>
+        </div>
+        <br>
+        <div id="content">
+          <div id="navigator">
+            <br>
+            <a href="githomepage.html">Home</a>
+            <br>
+            <a href="gitcourses.html">Courses</a>
+            <br>
+            <a href="gitinterests.html">Interests</a>
+            <br>
+            <a href="gitworldview.html">Worldview</a>
+            <br>
+            <a href="gitguestbook.html">Guestbook</a>
+          </div>
+          <div id="main">
+            <div id="gdescrib">
+              Tell me that you have visited my website by filling in this form
+            </div>
+            <form action="http://webdesign.students.logoscambodia.org/echo_post.php" method="POST">
+            <div id="name">
+              <b>Your Name:</b>
+              <input type="text" name="name" maxlength="100" id="tname"/>
+            </div>
+            <div id="email">
+              <b>Your Email:</b>
+              <input type="email" name="email" maxlength="100" id="temail"/>
+            </div>
+            <div id="website">
+              <b>Your Favorite Website:</b>
+              <input type="text" name="website" maxlength="100" id="twebsite"/>
+            </div>
+            <div id="comment">
+              <b>Comment:</b>
+              <textarea name="comment" maxlength="300" id="tcomment"></textarea>
+            </div>
+            <div>
+              <button type="submit" id="gbutton">
+                <b>Sign Up<b>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div id="footer">
+          Copyrighted (C)2016 Hyun Woo Choi
+        </div>
+      </div>
+    </body>
+</html>

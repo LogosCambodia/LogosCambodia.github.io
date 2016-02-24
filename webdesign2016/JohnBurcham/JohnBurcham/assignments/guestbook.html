@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Guestbook</title>
+	<style>
+    .btn {
+      background-color: #198a27;
+      color: white;
+      width: 150px;
+      height: 45px;
+    }
+    input {
+      width: 300px;
+      height: 40px;
+      border-radius: 3px;
+      border: 1px solid;
+      margin-bottom: 5px;
+    }
+    input:placeholder-shown {
+      font-size: 18px;
+    }
+    textarea {
+      width: 295px;
+      height: 80px;
+    }
+    .formie {
+      color: #343d35;
+    }
+	</style>
+</head>
+<body>
+  <h1>Dis be a guestbook</h1>
+  <form class=formie action="http://webdesign.students.logoscambodia.org/echo_post.php" method="POST">
+  <input type="name" placeholder="Name" name="name" />
+</br>
+  <input type="email" placeholder="Email" name="email" />
+  </br>
+  <input type="email" placeholder="Favorite Website" name="favweb" />
+  </br>
+  <textarea placeholder="Comment!"></textarea>
+  </br>
+  <button class="btn" type="submit" name="button">Submit</button>
+	</form>
+	</body>
+</html>
