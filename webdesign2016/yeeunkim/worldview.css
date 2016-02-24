@@ -1,0 +1,30 @@
+body{
+color: white;
+    background-color: #FCBDEA;
+
+}
+div {
+    background-color: #E88EB6;
+    width: 700px;
+    padding: 15px;
+    margin: 5px;
+}
+h1{
+  color: white;
+  text-align: center;
+
+}
+h2{
+  text-align: center;
+}
+.box{
+  text-align: center;
+  position: absolute;
+  left: 300px;
+  top: 100px;
+  z-index: -1;
+  border-style: solid;
+    border-width: 5px;
+        box-shadow: 6px 6px 2px #888888;
+
+}

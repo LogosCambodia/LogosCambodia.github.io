@@ -1,0 +1,28 @@
+body{
+   background-color: #F7F2F0;
+}
+h1{
+  font-family:"Lucida Grande", sans-serif;
+  color: #333636;
+  font-size: 38px
+}
+p4{
+  font-size   : 20px;
+  font-family:"Lucia Grande",  sans-serif;
+  color: #4C4F4F;
+  position: absolute;
+   left: 7px;
+   top: 70px;
+}
+.button {
+  border-radius: 9px;
+    background-color: #77C45A;
+    border: 1px solid;
+    color: white;
+      border-color: #494C4D;
+    padding: 9px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
