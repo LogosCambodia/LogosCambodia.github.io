@@ -1,0 +1,75 @@
+<html>
+
+<head>
+  <title>My Website</title>
+  <link rel="stylesheet" href="gitstyle.css" type="text/css"></link>
+  <script type="text/javascript" src="gitscript.js" ></script>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+<br>
+<body>
+	<div id="container">
+    <div id="header">
+      <h1>My Courses</h1>
+    </div>
+    <br>
+    <div id="content">
+      <div id="navigator">
+        <br>
+        <a href="githomepage.html">Home</a>
+        <br>
+        <a href="gitcourses.html">Courses</a>
+        <br>
+        <a href="gitinterests.html">Interests</a>
+        <br>
+        <a href="gitworldview.html">Worldview</a>
+        <br>
+        <a href="gitguestbook.html">Guestbook</a>
+      </div>
+      <div id="main">
+        <p>Classes that I take in 2015-2016</p>
+        <div id="list">
+          <button id="toggler">show/hide</button>
+      		<script>
+      			$( "#toggler" ).click(function() {
+      			$( "p5" ).toggle("slow", function(){
+      			console.log("Is it visible? " + $( "ul" ).is( ":visible" ))});
+      			console.log("You clicked the toggle button!");
+      			});
+          <ul>
+      			<li>Asian Studies
+      			<br>
+      			<p5>- Learn the history of Asia</p5></li>
+      			<li>Worldview
+      			<br>
+      			<p5>- Comparing Christian worldviews with other worlviews</p5></li>
+      			<li>Physics
+      			<br>
+      			<p5>- Laws of Physics</p5></li>
+      			<li>Brit Lit
+      			<br>
+      			<p5>- English in British version</p5></li>
+      			<li>Web Design
+      			This thing
+      			<br>
+      			<p5>- Learning how to make website</p5></li>
+      			<li>Pre-Calculus
+      			<br>
+      			<p5>- Trigonometry everywhere</p5></li>
+      			<li>AP Stats
+      			<br>
+      			<p5>Im not sure if this is even math</p5></li>
+      			<li>Leadership
+      			<br>
+      			<p5>Wanna be a good leader?</p5></li>
+      		</ul>
+        </div>
+      </div>
+    </div>
+    <div id="footer">
+      Copyrighted (C)2016 Hyun Woo Choi
+    </div>
+
+  </div>
+</body>
+</html>

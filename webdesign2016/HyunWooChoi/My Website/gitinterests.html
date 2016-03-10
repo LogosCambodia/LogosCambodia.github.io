@@ -1,0 +1,67 @@
+<html>
+
+<head>
+  <title>My Website</title>
+  <link rel="stylesheet" href="gitstyle.css" type="text/css"></link>
+  <script type="text/javascript" src="gitscript.js" ></script>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+<br>
+<body>
+	<div id="container">
+    <div id="header">
+      <h1>My Interests</h1>
+    </div>
+    <br>
+    <div id="content">
+      <div id="navigator">
+        <br>
+        <a href="githomepage.html">Home</a>
+        <br>
+        <a href="gitinterests.html">Courses</a>
+        <br>
+        <a href="gitworldview.html">Interests</a>
+        <br>
+        <a href="gitworldview.html">Worldview</a>
+        <br>
+        <a href="gitguestbook.html">Guestbook</a>
+      </div>
+      <div id="main">
+        <button id="toggler">show/hide</button>
+    		<script>
+    			$( "#toggler" ).click(function() {
+    			$( "p5" ).toggle("slow", function(){
+    			console.log("Is it visible? " + $( "ul" ).is( ":visible" ))});
+    			console.log("You clicked the toggle button!");
+    			});
+        <ul>
+      		<li>Soccer
+      		<br>
+    			<p5>At least need to do some exercises</p5></li>
+    			<li>Watching YouTube vids
+    			<br>
+    			<p5>Watch random videos on this everyday
+    			<a href="https://www.youtube.com/watch?v=He-LBIyBUz8" id="link">Link to YouTube</a></p5></li>
+    			<li>Sleeping
+    			<br>
+    			<p5>Nothing is better than this</p5></li>
+    			<li>Sketching
+    			<br>
+    			<p5>I have no thought when Im drawing</p5></li>
+    			<li>Look through Facebook
+    			<br>
+    			<p5>But mostly use it for chatting</p5></li>
+    			<li>9GAG
+    			<br>
+    			<p5>All night every night
+    			<a href="http://9gag.com/" id="link">Link to 9GAG</5p></li>
+    		</ul>
+      </div>
+    </div>
+    <div id="footer">
+      Copyrighted (C)2016 Hyun Woo Choi
+    </div>
+  </div>
+</body>
+
+</html>
